@@ -1,0 +1,490 @@
+{
+  "cs_CZ": {
+    "8qvVu": [
+      "Domů",
+      "/y+bhzIQnNfcZP4B55Yh/Q=="
+    ],
+    "1LZHIc": [
+      "Hledat články...",
+      "+CS7leN187kD61Izvk9Syw=="
+    ],
+    "3fUlAq": [
+      "Poslední aktualizace: {date}",
+      "q0JdTyWcQGluLChecoOvlQ=="
+    ],
+    "16ono5": {
+      "4": [
+        "{number} článek",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "20": [
+        "{number} články",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "*": [
+        "{number} článků",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "_1": [
+        "1 článek",
+        "ApsSZrJX6rxd10nYf29b5A=="
+      ]
+    },
+    "1kYgvd": [
+      "Populární články",
+      "H8fc5TPjl+47npt1TX3a1A=="
+    ],
+    "4yNg4g": [
+      "Zobrazit všechny články",
+      "pdZJf7G4ny3W1Qpm82e4Hw=="
+    ],
+    "4g6t9h": [
+      "Nebyly nalezeny žádné výsledky",
+      "Ol4rcuOfSa3c1AXuyBphoQ=="
+    ],
+    "cvCAq": [
+      "Nenašli jsme žádné články, které by odpovídaly vašemu vyhledávání.",
+      "UNZixprUib6h1fF8YkWyUA=="
+    ],
+    "1xn2Ki": [
+      "Centrum nápovědy",
+      "J5QghgxeWzZDHSxZmFfjow=="
+    ],
+    "djyME": [
+      "Jejda! Něco se pokazilo.",
+      "iasSLJFz4Hp4+C8a4qwY1Q=="
+    ],
+    "2UvnMw": [
+      "Vypadá to, že se něco pokazilo.",
+      "g0swyD4fJuHSSIyjvfiXrA=="
+    ],
+    "184Zys": [
+      "Zkusit znovu",
+      "pwAxcytATAMxhU3xfvSigw=="
+    ],
+    "2ZFdDQ": [
+      "Tato pomoc není k dispozici ve vašem jazyce. Vyberte některý z jazyků:",
+      "QAriq8yZb/53wQPIPRIUtg=="
+    ],
+    "2nZLBM": [
+      "Vyberte jazyk",
+      "OiyGcfuQsgD1Bfxna34GHA=="
+    ],
+    "bPift": [
+      "Najděte odpovědi na nejčastěji kladené otázky níže. Vyhledejte témata, která vás zajímají, nebo je roztřiďte podle kategorií.",
+      "QTkeCOHu5nVhdL0QwZm0Gg=="
+    ],
+    "2SQQsh": [
+      "Zpět",
+      "6prvSt7hCcb97c9dKoBhWg=="
+    ],
+    "2STjQL": [
+      "Zavřít",
+      "oY2Y00+6LLJAxRNCbMkE8A=="
+    ]
+  },
+  "sk_SK": {
+    "8qvVu": [
+      "Domov",
+      "/y+bhzIQnNfcZP4B55Yh/Q=="
+    ],
+    "1LZHIc": [
+      "Vyhľadávanie článkov...",
+      "+CS7leN187kD61Izvk9Syw=="
+    ],
+    "3fUlAq": [
+      "Naposledy aktualizované: {date}",
+      "q0JdTyWcQGluLChecoOvlQ=="
+    ],
+    "16ono5": {
+      "4": [
+        "{number} článok",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "20": [
+        "{number} články",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "*": [
+        "{number} článkov",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "_1": [
+        "1 článok",
+        "ApsSZrJX6rxd10nYf29b5A=="
+      ]
+    },
+    "1kYgvd": [
+      "Populárne články",
+      "H8fc5TPjl+47npt1TX3a1A=="
+    ],
+    "4yNg4g": [
+      "Zobraziť všetky články",
+      "pdZJf7G4ny3W1Qpm82e4Hw=="
+    ],
+    "4g6t9h": [
+      "Nezistili sa žiadne výsledky",
+      "Ol4rcuOfSa3c1AXuyBphoQ=="
+    ],
+    "cvCAq": [
+      "Nenašli sme žiadne články, ktoré by zodpovedali vášmu vyhľadávaniu.",
+      "UNZixprUib6h1fF8YkWyUA=="
+    ],
+    "1xn2Ki": [
+      "Centrum pomoci",
+      "J5QghgxeWzZDHSxZmFfjow=="
+    ],
+    "djyME": [
+      "Ojoj! Niečo sa pokazilo.",
+      "iasSLJFz4Hp4+C8a4qwY1Q=="
+    ],
+    "2UvnMw": [
+      "Vyzerá to, že sa niečo pokazilo.",
+      "g0swyD4fJuHSSIyjvfiXrA=="
+    ],
+    "184Zys": [
+      "Skúsiť znova",
+      "pwAxcytATAMxhU3xfvSigw=="
+    ],
+    "2ZFdDQ": [
+      "Táto pomoc nie je k dispozícii vo vašom jazyku. Vyberte niektorý z jazykov:",
+      "QAriq8yZb/53wQPIPRIUtg=="
+    ],
+    "2nZLBM": [
+      "Vyberte jazyk",
+      "OiyGcfuQsgD1Bfxna34GHA=="
+    ],
+    "bPift": [
+      "Nájdite odpovede na najčastejšie kladené otázky nižšie. Vyhľadajte témy, ktoré vás zaujímajú, alebo ich triedte podľa kategórií.",
+      "QTkeCOHu5nVhdL0QwZm0Gg=="
+    ],
+    "2SQQsh": [
+      "Späť",
+      "6prvSt7hCcb97c9dKoBhWg=="
+    ],
+    "2STjQL": [
+      "Zavrieť",
+      "oY2Y00+6LLJAxRNCbMkE8A=="
+    ]
+  },
+  "pl_PL": {
+    "8qvVu": [
+      "Strona główna",
+      "/y+bhzIQnNfcZP4B55Yh/Q=="
+    ],
+    "1LZHIc": [
+      "Szukaj artykułów...",
+      "+CS7leN187kD61Izvk9Syw=="
+    ],
+    "3fUlAq": [
+      "Ostatnia aktualizacja: {date}",
+      "q0JdTyWcQGluLChecoOvlQ=="
+    ],
+    "16ono5": {
+      "4": [
+        "1 artykuł",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "20": [
+        "{number} artykuły",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "*": [
+        "{number} artykułów",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "_1": [
+        "1 artykuł",
+        "ApsSZrJX6rxd10nYf29b5A=="
+      ]
+    },
+    "1kYgvd": [
+      "Popularne artykuły",
+      "H8fc5TPjl+47npt1TX3a1A=="
+    ],
+    "4yNg4g": [
+      "Zobacz wszystkie artykuły",
+      "pdZJf7G4ny3W1Qpm82e4Hw=="
+    ],
+    "4g6t9h": [
+      "Brak wyników",
+      "Ol4rcuOfSa3c1AXuyBphoQ=="
+    ],
+    "cvCAq": [
+      "Nie znaleziono artykułów pasujących do wyszukiwania.",
+      "UNZixprUib6h1fF8YkWyUA=="
+    ],
+    "1xn2Ki": [
+      "Centrum pomocy",
+      "J5QghgxeWzZDHSxZmFfjow=="
+    ],
+    "djyME": [
+      "Ups! Coś poszło nie tak.",
+      "iasSLJFz4Hp4+C8a4qwY1Q=="
+    ],
+    "2UvnMw": [
+      "Wygląda na to, że coś poszło nie tak.",
+      "g0swyD4fJuHSSIyjvfiXrA=="
+    ],
+    "184Zys": [
+      "Spróbuj ponownie",
+      "pwAxcytATAMxhU3xfvSigw=="
+    ],
+    "2ZFdDQ": [
+      "Ta pomoc nie jest dostępna w Twoim języku. Wybierz jeden z obsługiwanych języków:",
+      "QAriq8yZb/53wQPIPRIUtg=="
+    ],
+    "2nZLBM": [
+      "Wybierz język",
+      "OiyGcfuQsgD1Bfxna34GHA=="
+    ],
+    "bPift": [
+      "Znajdź odpowiedzi na najczęściej zadawane pytania poniżej. Wyszukaj interesujące Cię tematy lub posortuj według kategorii.",
+      "QTkeCOHu5nVhdL0QwZm0Gg=="
+    ],
+    "2SQQsh": [
+      "Wróć",
+      "6prvSt7hCcb97c9dKoBhWg=="
+    ],
+    "2STjQL": [
+      "Zamknij",
+      "oY2Y00+6LLJAxRNCbMkE8A=="
+    ]
+  },
+  "de_DE": {
+    "8qvVu": [
+      "Startseite",
+      "/y+bhzIQnNfcZP4B55Yh/Q=="
+    ],
+    "1LZHIc": [
+      "Artikel suchen...",
+      "+CS7leN187kD61Izvk9Syw=="
+    ],
+    "3fUlAq": [
+      "Zuletzt aktualisiert am {date}",
+      "q0JdTyWcQGluLChecoOvlQ=="
+    ],
+    "16ono5": {
+      "*": [
+        "{number} Artikel",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "_1": [
+        "1 Artikel",
+        "ApsSZrJX6rxd10nYf29b5A=="
+      ]
+    },
+    "1kYgvd": [
+      "Beliebte Artikel",
+      "H8fc5TPjl+47npt1TX3a1A=="
+    ],
+    "4yNg4g": [
+      "Alle Artikel anzeigen",
+      "pdZJf7G4ny3W1Qpm82e4Hw=="
+    ],
+    "4g6t9h": [
+      "Keine Ergebnisse gefunden",
+      "Ol4rcuOfSa3c1AXuyBphoQ=="
+    ],
+    "cvCAq": [
+      "Wir konnten keine Artikel finden, die Ihrer Suche entsprechen.",
+      "UNZixprUib6h1fF8YkWyUA=="
+    ],
+    "1xn2Ki": [
+      "Hilfezentrum",
+      "J5QghgxeWzZDHSxZmFfjow=="
+    ],
+    "djyME": [
+      "Uups! Etwas ist schiefgelaufen.",
+      "iasSLJFz4Hp4+C8a4qwY1Q=="
+    ],
+    "2UvnMw": [
+      "Es scheint, als wäre etwas schiefgelaufen.",
+      "g0swyD4fJuHSSIyjvfiXrA=="
+    ],
+    "184Zys": [
+      "Erneut versuchen",
+      "pwAxcytATAMxhU3xfvSigw=="
+    ],
+    "2ZFdDQ": [
+      "Dieser Hilfsinhalt ist in Ihrer Sprache nicht verfügbar. Bitte wählen Sie eine der unterstützten Sprachen:",
+      "QAriq8yZb/53wQPIPRIUtg=="
+    ],
+    "2nZLBM": [
+      "Sprache auswählen",
+      "OiyGcfuQsgD1Bfxna34GHA=="
+    ],
+    "bPift": [
+      "Finde Antworten auf die am häufigsten gestellten Fragen unten. Suche nach Themen, die dich interessieren, oder sortiere nach Kategorie.",
+      "QTkeCOHu5nVhdL0QwZm0Gg=="
+    ],
+    "2SQQsh": [
+      "Zurück",
+      "6prvSt7hCcb97c9dKoBhWg=="
+    ],
+    "2STjQL": [
+      "Schließen",
+      "oY2Y00+6LLJAxRNCbMkE8A=="
+    ]
+  },
+  "sv_SE": {
+    "8qvVu": [
+      "Hem",
+      "/y+bhzIQnNfcZP4B55Yh/Q=="
+    ],
+    "1LZHIc": [
+      "Sök artiklar...",
+      "+CS7leN187kD61Izvk9Syw=="
+    ],
+    "3fUlAq": [
+      "Senast uppdaterad {date}",
+      "q0JdTyWcQGluLChecoOvlQ=="
+    ],
+    "16ono5": {
+      "4": [
+        "1 artikel",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "*": [
+        "{number} artiklar",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "_1": [
+        "1 artikel",
+        "ApsSZrJX6rxd10nYf29b5A=="
+      ]
+    },
+    "1kYgvd": [
+      "Populära artiklar",
+      "H8fc5TPjl+47npt1TX3a1A=="
+    ],
+    "4yNg4g": [
+      "Visa alla artiklar",
+      "pdZJf7G4ny3W1Qpm82e4Hw=="
+    ],
+    "4g6t9h": [
+      "Inga resultat hittades",
+      "Ol4rcuOfSa3c1AXuyBphoQ=="
+    ],
+    "cvCAq": [
+      "Vi kunde inte hitta några artiklar som matchar din sökning.",
+      "UNZixprUib6h1fF8YkWyUA=="
+    ],
+    "1xn2Ki": [
+      "Hjälpcentral",
+      "J5QghgxeWzZDHSxZmFfjow=="
+    ],
+    "djyME": [
+      "Oj! Något gick fel.",
+      "iasSLJFz4Hp4+C8a4qwY1Q=="
+    ],
+    "2UvnMw": [
+      "Det verkar som att något gick fel.",
+      "g0swyD4fJuHSSIyjvfiXrA=="
+    ],
+    "184Zys": [
+      "Försök igen",
+      "pwAxcytATAMxhU3xfvSigw=="
+    ],
+    "2ZFdDQ": [
+      "Detta hjälpavsnitt är inte tillgängligt på ditt språk. Välj ett av våra stödda språk:",
+      "QAriq8yZb/53wQPIPRIUtg=="
+    ],
+    "2nZLBM": [
+      "Välj ett språk",
+      "OiyGcfuQsgD1Bfxna34GHA=="
+    ],
+    "bPift": [
+      "Hitta svar på de vanligaste frågorna nedan. Sök efter ämnen du är intresserad av eller sortera efter kategori.",
+      "QTkeCOHu5nVhdL0QwZm0Gg=="
+    ],
+    "2SQQsh": [
+      "Gå tillbaka",
+      "6prvSt7hCcb97c9dKoBhWg=="
+    ],
+    "2STjQL": [
+      "Stäng",
+      "oY2Y00+6LLJAxRNCbMkE8A=="
+    ]
+  },
+  "uk_UA": {
+    "8qvVu": [
+      "Головна",
+      "/y+bhzIQnNfcZP4B55Yh/Q=="
+    ],
+    "1LZHIc": [
+      "Пошук статей...",
+      "+CS7leN187kD61Izvk9Syw=="
+    ],
+    "3fUlAq": [
+      "Останнє оновлення {date}",
+      "q0JdTyWcQGluLChecoOvlQ=="
+    ],
+    "16ono5": {
+      "4": [
+        "{number} стаття",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "*": [
+        "{number} статей",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "_1": [
+        "1 стаття",
+        "ApsSZrJX6rxd10nYf29b5A=="
+      ]
+    },
+    "1kYgvd": [
+      "Популярні статті",
+      "H8fc5TPjl+47npt1TX3a1A=="
+    ],
+    "4yNg4g": [
+      "Переглянути всі статті",
+      "pdZJf7G4ny3W1Qpm82e4Hw=="
+    ],
+    "4g6t9h": [
+      "Результати не знайдено",
+      "Ol4rcuOfSa3c1AXuyBphoQ=="
+    ],
+    "cvCAq": [
+      "не знайшли жодної статті, що відповідає вашому запиту.",
+      "UNZixprUib6h1fF8YkWyUA=="
+    ],
+    "1xn2Ki": [
+      "Центр допомоги",
+      "J5QghgxeWzZDHSxZmFfjow=="
+    ],
+    "djyME": [
+      "Ой! Щось пішло не так.",
+      "iasSLJFz4Hp4+C8a4qwY1Q=="
+    ],
+    "2UvnMw": [
+      "Схоже, щось пішло не так.",
+      "g0swyD4fJuHSSIyjvfiXrA=="
+    ],
+    "184Zys": [
+      "Спробувати ще раз",
+      "pwAxcytATAMxhU3xfvSigw=="
+    ],
+    "2ZFdDQ": [
+      "Цей довідковий матеріал недоступний вашою мовою. Будь ласка, виберіть одну з підтримуваних мов:",
+      "QAriq8yZb/53wQPIPRIUtg=="
+    ],
+    "2nZLBM": [
+      "Виберіть мову",
+      "OiyGcfuQsgD1Bfxna34GHA=="
+    ],
+    "bPift": [
+      "Знайдіть відповіді на найпоширеніші запитання нижче. Знайдіть теми, які вас цікавлять, або відсортуйте їх за категоріями.",
+      "QTkeCOHu5nVhdL0QwZm0Gg=="
+    ],
+    "2SQQsh": [
+      "Назад",
+      "6prvSt7hCcb97c9dKoBhWg=="
+    ],
+    "2STjQL": [
+      "Закрити",
+      "oY2Y00+6LLJAxRNCbMkE8A=="
+    ]
+  }
+}

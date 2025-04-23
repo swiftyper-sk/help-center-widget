@@ -1,0 +1,420 @@
+{
+ "phrases": [
+  {
+   "hashToLeaf": {
+    "/y+bhzIQnNfcZP4B55Yh/Q==": {
+     "text": "Home",
+     "desc": "Link to the home page"
+    }
+   },
+   "filepath": "src\\components\\Breadcrumb.tsx",
+   "line_beg": 25,
+   "col_beg": 17,
+   "line_end": 25,
+   "col_end": 53,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Link to the home page",
+     "text": "Home"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "iasSLJFz4Hp4+C8a4qwY1Q==": {
+     "text": "Oops! Something went wrong.",
+     "desc": "Title for error page"
+    }
+   },
+   "filepath": "src\\components\\ErrorBoundary.tsx",
+   "line_beg": 43,
+   "col_beg": 29,
+   "line_end": 46,
+   "col_end": 29,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Title for error page",
+     "text": "Oops! Something went wrong."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "g0swyD4fJuHSSIyjvfiXrA==": {
+     "text": "It seems like something went wrong.",
+     "desc": "Generic error message when something goes wrong"
+    }
+   },
+   "filepath": "src\\components\\ErrorBoundary.tsx",
+   "line_beg": 49,
+   "col_beg": 29,
+   "line_end": 52,
+   "col_end": 29,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Generic error message when something goes wrong",
+     "text": "It seems like something went wrong."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "pwAxcytATAMxhU3xfvSigw==": {
+     "text": "Try Again",
+     "desc": "Refresh page button"
+    }
+   },
+   "filepath": "src\\components\\ErrorBoundary.tsx",
+   "line_beg": 59,
+   "col_beg": 25,
+   "line_end": 59,
+   "col_end": 64,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Refresh page button",
+     "text": "Try Again"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "6prvSt7hCcb97c9dKoBhWg==": {
+     "text": "Go Back",
+     "desc": "Button: navigate to the previous page"
+    }
+   },
+   "filepath": "src\\components\\Header.tsx",
+   "line_beg": 27,
+   "col_beg": 31,
+   "line_end": 27,
+   "col_end": 86,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Button: navigate to the previous page",
+     "text": "Go Back"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "oY2Y00+6LLJAxRNCbMkE8A==": {
+     "text": "Close",
+     "desc": "Button: close the help center"
+    }
+   },
+   "filepath": "src\\components\\Header.tsx",
+   "line_beg": 40,
+   "col_beg": 27,
+   "line_end": 40,
+   "col_end": 72,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Button: close the help center",
+     "text": "Close"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "OiyGcfuQsgD1Bfxna34GHA==": {
+     "text": "Select a language",
+     "desc": "Placeholder for language selector"
+    }
+   },
+   "filepath": "src\\components\\LocaleSelector.tsx",
+   "line_beg": 26,
+   "col_beg": 17,
+   "line_end": 26,
+   "col_end": 78,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Placeholder for language selector",
+     "text": "Select a language"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "QAriq8yZb/53wQPIPRIUtg==": {
+     "text": "This help content is not available in your language. Please choose from one of our supported languages:",
+     "desc": "Shown to help center users in an unsupported locale"
+    }
+   },
+   "filepath": "src\\components\\LocaleSelector.tsx",
+   "line_beg": 41,
+   "col_beg": 21,
+   "line_end": 44,
+   "col_end": 21,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Shown to help center users in an unsupported locale",
+     "text": "This help content is not available in your language. Please choose from one of our supported languages:"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "H8fc5TPjl+47npt1TX3a1A==": {
+     "text": "Popular Articles",
+     "desc": "Title in the home page"
+    }
+   },
+   "filepath": "src\\components\\PopularArticles.tsx",
+   "line_beg": 19,
+   "col_beg": 21,
+   "line_end": 19,
+   "col_end": 70,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Title in the home page",
+     "text": "Popular Articles"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "pdZJf7G4ny3W1Qpm82e4Hw==": {
+     "text": "View all articles",
+     "desc": "Link/button: View all articles"
+    }
+   },
+   "filepath": "src\\components\\PopularArticles.tsx",
+   "line_beg": 45,
+   "col_beg": 29,
+   "line_end": 48,
+   "col_end": 29,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Link/button: View all articles",
+     "text": "View all articles"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "+CS7leN187kD61Izvk9Syw==": {
+     "text": "Search articles...",
+     "desc": "Help center search input placeholder"
+    }
+   },
+   "filepath": "src\\components\\SearchInput.tsx",
+   "line_beg": 32,
+   "col_beg": 29,
+   "line_end": 35,
+   "col_end": 17,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Help center search input placeholder",
+     "text": "Search articles..."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "q0JdTyWcQGluLChecoOvlQ==": {
+     "text": "Last updated on {date}",
+     "desc": "Text for last updated date"
+    }
+   },
+   "filepath": "src\\components\\SearchResults.tsx",
+   "line_beg": 59,
+   "col_beg": 37,
+   "line_end": 66,
+   "col_end": 37,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Text for last updated date",
+     "text": "Last updated on {date}"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "Ol4rcuOfSa3c1AXuyBphoQ==": {
+     "text": "No results found",
+     "desc": "header for empty state"
+    }
+   },
+   "filepath": "src\\components\\SearchResults.tsx",
+   "line_beg": 79,
+   "col_beg": 17,
+   "line_end": 79,
+   "col_end": 66,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "header for empty state",
+     "text": "No results found"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "UNZixprUib6h1fF8YkWyUA==": {
+     "text": "We couldn't find any articles matching your search.",
+     "desc": "description for empty state"
+    }
+   },
+   "filepath": "src\\components\\SearchResults.tsx",
+   "line_beg": 82,
+   "col_beg": 17,
+   "line_end": 85,
+   "col_end": 17,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "description for empty state",
+     "text": "We couldn't find any articles matching your search."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "q0JdTyWcQGluLChecoOvlQ==": {
+     "text": "Last updated on {date}",
+     "desc": "Text for last updated date"
+    }
+   },
+   "filepath": "src\\pages\\Article.tsx",
+   "line_beg": 41,
+   "col_beg": 29,
+   "line_end": 48,
+   "col_end": 29,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Text for last updated date",
+     "text": "Last updated on {date}"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "2Sxr7qNdHS+bc6NYoY4dpg==": {
+     "text": "{number} articles",
+     "desc": "Number of articles"
+    },
+    "ApsSZrJX6rxd10nYf29b5A==": {
+     "text": "1 article",
+     "desc": "Number of articles"
+    }
+   },
+   "filepath": "src\\pages\\Category.tsx",
+   "line_beg": 34,
+   "col_beg": 29,
+   "line_end": 43,
+   "col_end": 29,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "*": {
+      "desc": "Number of articles",
+      "text": "{number} articles"
+     },
+     "_1": {
+      "desc": "Number of articles",
+      "text": "1 article"
+     }
+    },
+    "m": [
+     {
+      "token": "number",
+      "type": 2,
+      "singular": true
+     }
+    ]
+   }
+  },
+  {
+   "hashToLeaf": {
+    "q0JdTyWcQGluLChecoOvlQ==": {
+     "text": "Last updated on {date}",
+     "desc": "Text for last updated date"
+    }
+   },
+   "filepath": "src\\pages\\Category.tsx",
+   "line_beg": 68,
+   "col_beg": 41,
+   "line_end": 77,
+   "col_end": 41,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Text for last updated date",
+     "text": "Last updated on {date}"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "J5QghgxeWzZDHSxZmFfjow==": {
+     "text": "Help Center",
+     "desc": "Widget main title"
+    }
+   },
+   "filepath": "src\\providers\\ConfigurationProvider.tsx",
+   "line_beg": 15,
+   "col_beg": 21,
+   "line_end": 15,
+   "col_end": 60,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Widget main title",
+     "text": "Help Center"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "QTkeCOHu5nVhdL0QwZm0Gg==": {
+     "text": "Find answers to the most commonly asked questions bellow. Search for topics you're interested in or sort by category.",
+     "desc": "Widget introduction text"
+    }
+   },
+   "filepath": "src\\providers\\ConfigurationProvider.tsx",
+   "line_beg": 16,
+   "col_beg": 27,
+   "line_end": 19,
+   "col_end": 9,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Widget introduction text",
+     "text": "Find answers to the most commonly asked questions bellow. Search for topics you're interested in or sort by category."
+    },
+    "m": []
+   }
+  }
+ ],
+ "childParentMappings": {}
+}
