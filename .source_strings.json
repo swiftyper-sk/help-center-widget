@@ -29,9 +29,9 @@
     }
    },
    "filepath": "src\\components\\ErrorBoundary.tsx",
-   "line_beg": 43,
+   "line_beg": 55,
    "col_beg": 29,
-   "line_end": 46,
+   "line_end": 58,
    "col_end": 29,
    "project": "",
    "jsfbt": {
@@ -50,9 +50,9 @@
     }
    },
    "filepath": "src\\components\\ErrorBoundary.tsx",
-   "line_beg": 49,
+   "line_beg": 61,
    "col_beg": 29,
-   "line_end": 52,
+   "line_end": 64,
    "col_end": 29,
    "project": "",
    "jsfbt": {
@@ -71,9 +71,9 @@
     }
    },
    "filepath": "src\\components\\ErrorBoundary.tsx",
-   "line_beg": 59,
+   "line_beg": 71,
    "col_beg": 25,
-   "line_end": 59,
+   "line_end": 71,
    "col_end": 64,
    "project": "",
    "jsfbt": {
@@ -94,8 +94,8 @@
    "filepath": "src\\components\\Header.tsx",
    "line_beg": 27,
    "col_beg": 31,
-   "line_end": 27,
-   "col_end": 86,
+   "line_end": 30,
+   "col_end": 25,
    "project": "",
    "jsfbt": {
     "t": {
@@ -113,9 +113,9 @@
     }
    },
    "filepath": "src\\components\\Header.tsx",
-   "line_beg": 40,
+   "line_beg": 43,
    "col_beg": 27,
-   "line_end": 40,
+   "line_end": 43,
    "col_end": 72,
    "project": "",
    "jsfbt": {

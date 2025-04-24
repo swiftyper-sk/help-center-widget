@@ -15,9 +15,9 @@ const Article: React.FC = () => {
     const { article, loading, error } = useFetchArticle(id, fetchOptions)
 
     useEffect(() => {
-        setFetchOptions(
-            swiftyper.articleLocale ? { locale: swiftyper.articleLocale } : {}
-        )
+        if (!swiftyper.articleLocale) return
+
+        setFetchOptions({ locale: swiftyper.articleLocale })
     }, [swiftyper.articleLocale])
 
     if (error) {

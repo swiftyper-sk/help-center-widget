@@ -1,4 +1,12 @@
-import React, { ReactNode, ErrorInfo, useState, useEffect } from 'react'
+import React, {
+    ReactNode,
+    useState,
+    useEffect,
+    useRef,
+    forwardRef,
+    useImperativeHandle,
+    ErrorInfo,
+} from 'react'
 import { AlertTriangle } from 'lucide-react'
 import { useLocation } from 'react-router-dom'
 import fbt from 'fbt'
@@ -11,6 +19,10 @@ type ErrorBoundaryState = {
     hasError: boolean
 }
 
+type ErrorBoundaryHandles = {
+    resetErrorBoundary: () => void
+}
+
 class ErrorBoundary extends React.Component<
     ErrorBoundaryProps,
     ErrorBoundaryState
@@ -18,10 +30,10 @@ class ErrorBoundary extends React.Component<
     constructor(props: ErrorBoundaryProps) {
         super(props)
         this.state = { hasError: false }
+        this.resetErrorBoundary = this.resetErrorBoundary.bind(this)
     }
 
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    static getDerivedStateFromError(_error: Error): ErrorBoundaryState {
+    static getDerivedStateFromError(): { hasError: boolean } {
         return { hasError: true }
     }
 
@@ -29,7 +41,7 @@ class ErrorBoundary extends React.Component<
         console.error('ErrorBoundary caught an error:', error, info)
     }
 
-    resetErrorBoundary = (): void => {
+    resetErrorBoundary(): void {
         this.setState({ hasError: false })
     }
 
@@ -66,15 +78,24 @@ class ErrorBoundary extends React.Component<
     }
 }
 
-function ErrorBoundaryWithReset({ children }: { children: ReactNode }) {
+const ErrorBoundaryWithReset = forwardRef<
+    ErrorBoundaryHandles,
+    { children: ReactNode }
+>(({ children }, ref) => {
+    const errorBoundaryRef = useRef<ErrorBoundary>(null)
     const location = useLocation()
-    const [path, setPath] = useState(location.pathname)
+
+    useImperativeHandle(ref, () => ({
+        resetErrorBoundary: () => {
+            errorBoundaryRef.current?.resetErrorBoundary()
+        },
+    }))
 
     useEffect(() => {
-        setPath(location.pathname)
-    }, [location])
+        errorBoundaryRef.current?.resetErrorBoundary()
+    }, [location.pathname])
 
-    return <ErrorBoundary key={path}>{children}</ErrorBoundary>
-}
+    return <ErrorBoundary ref={errorBoundaryRef}>{children}</ErrorBoundary>
+})
 
 export default ErrorBoundaryWithReset

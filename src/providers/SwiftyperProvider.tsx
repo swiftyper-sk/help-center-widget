@@ -7,7 +7,10 @@ type SwiftyperProviderProps = {
     locale: string
 }
 
-export const SwiftyperProvider = ({ children, ...props }: SwiftyperProviderProps) => {
+export const SwiftyperProvider = ({
+    children,
+    ...props
+}: SwiftyperProviderProps) => {
     const [articleLocale, setArticleLocale] = useState<string | undefined>(
         undefined
     )

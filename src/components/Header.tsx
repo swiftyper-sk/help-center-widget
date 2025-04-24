@@ -2,7 +2,7 @@ import React from 'react'
 import { ArrowLeft, X } from 'lucide-react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useConfigurationContext } from '@/contexts/ConfigurationContext'
-import fbt from "fbt";
+import fbt from 'fbt'
 
 const Header: React.FC = () => {
     const { configuration } = useConfigurationContext()!
@@ -24,7 +24,10 @@ const Header: React.FC = () => {
                     <button
                         onClick={handleBack}
                         className="p-2 rounded-lg hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors"
-                        title={fbt("Go Back", 'Button: navigate to the previous page')}
+                        title={fbt(
+                            'Go Back',
+                            'Button: navigate to the previous page'
+                        )}
                     >
                         <ArrowLeft className="w-5 h-5" />
                     </button>
@@ -37,7 +40,7 @@ const Header: React.FC = () => {
                 <button
                     onClick={handleClose}
                     className="p-2 rounded-lg hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-100 hover:dark:bg-zinc-800 transition-colors relative group"
-                    title={fbt("Close", 'Button: close the help center')}
+                    title={fbt('Close', 'Button: close the help center')}
                 >
                     <X className="w-5 h-5" />
                 </button>

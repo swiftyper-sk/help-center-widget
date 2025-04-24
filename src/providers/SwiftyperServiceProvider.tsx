@@ -15,7 +15,9 @@ type SwiftyperServiceProviderProps = {
     children: ReactElement
 }
 
-export const SwiftyperServiceProvider = (props: SwiftyperServiceProviderProps) => {
+export const SwiftyperServiceProvider = (
+    props: SwiftyperServiceProviderProps
+) => {
     const swiftyper = useSwiftyperContext()!
     const { token, locale } = swiftyper
 
