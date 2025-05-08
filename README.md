@@ -32,23 +32,24 @@ Register your project on [Swiftyper](https://swiftyper.sk).
 
 Customize the widget to fit your needs using the following options:
 
-| **Option**                | **Type** | **Description**                                                |
-|---------------------------|----------|----------------------------------------------------------------|
-| `apiKey`                  | string   | API key for authenticating with the help center.               |
-| `locale`                  | string   | Locale setting for the widget (e.g., `en_US`, `de_DE`).        |
-| `isOpen`                  | boolean  | Whether the widget is open by default.                         |
-| `launcherPosition`        | string   | Position of the launcher on the screen (e.g., `bottom-right`). |
-| `launcherColor`           | string   | Color of the launcher icon.                                    |
-| `launcherBackgroundColor` | string   | Background color of the launcher.                              |
-| `launcherSize`            | string   | Size of the launcher (e.g., `3.5rem`).                         |
-| `launcherMargin`          | string   | Margin around the launcher  (e.g., `1rem`).                    |
-| `widgetRadius`            | string   | Border radius of the widget (e.g., `12px`).                    |
-| `widgetWidth`             | string   | Width of the widget (e.g., `400px`).                           |
-| `widgetHeight`            | string   | Height of the widget (e.g., `650px`).                          |
-| `displayMode`             | string   | Display mode of the widget (`modal`, `popup`).                 |
-| `showModalBackdrop`       | boolean  | Show a backdrop when the widget is in modal mode.              |
-| `backdropColor`           | string   | Color of the modal backdrop (e.g. `rgba(0, 0, 0, 0.5)`).       |
-| `launcherIconSvg`         | string   | Custom SVG icon for the launcher.                              |
+| **Option**                 | **Type** | **Description**                                                |
+|----------------------------|----------|----------------------------------------------------------------|
+| `apiKey`                   | string   | API key for authenticating with the help center.               |
+| `locale`                   | string   | Locale setting for the widget (e.g., `en_US`, `de_DE`).        |
+| `isOpen`                   | boolean  | Whether the widget is open by default.                         |
+| `launcherPosition`         | string   | Position of the launcher on the screen (e.g., `bottom-right`). |
+| `launcherColor`            | string   | Color of the launcher icon.                                    |
+| `launcherBackgroundColor`  | string   | Background color of the launcher.                              |
+| `launcherSize`             | string   | Size of the launcher (e.g., `3.5rem`).                         |
+| `launcherMargin`           | string   | Margin around the launcher  (e.g., `1rem`).                    |
+| `launcherAnimation`        | boolean  | Enable animation for the launcher.                             |
+| `widgetRadius`             | string   | Border radius of the widget (e.g., `12px`).                    |
+| `widgetWidth`              | string   | Width of the widget (e.g., `400px`).                           |
+| `widgetHeight`             | string   | Height of the widget (e.g., `650px`).                          |
+| `displayMode`              | string   | Display mode of the widget (`modal`, `popup`).                 |
+| `showModalBackdrop`        | boolean  | Show a backdrop when the widget is in modal mode.              |
+| `backdropColor`            | string   | Color of the modal backdrop (e.g. `rgba(0, 0, 0, 0.5)`).       |
+| `launcherIconSvg`          | string   | Custom SVG icon for the launcher.                              |
 
 ## ⚡️ Quick Start
 

@@ -9,7 +9,7 @@
     "build:app": "tsc && vite build",
     "build:widget": "vite build --config vite.widget.config",
     "preview": "vite preview",
-    "format": "prettier --write src",
+    "format": "prettier --write src widget",
     "lint": "eslint .",
     "manifest-fbts": "node node_modules/babel-plugin-fbt/dist/bin/manifest --src src",
     "collect-fbts": "node node_modules/babel-plugin-fbt/dist/bin/collectFbt.js --presets @babel/preset-typescript --pretty --manifest < .src_manifest.json > .source_strings.json",
