@@ -7,7 +7,7 @@ export default () => {
     const [popularArticles, setPopularArticles] = useState<Article[] | null>(
         null
     )
-    const [loading, setLoading] = useState<boolean>(false)
+    const [loading, setLoading] = useState<boolean>(true)
     const [error, setError] = useState<Error | null>(null)
 
     useEffect(() => {

@@ -5,7 +5,7 @@ import { useConfigurationContext } from '@/contexts/ConfigurationContext'
 import fbt from 'fbt'
 
 const Header: React.FC = () => {
-    const { configuration } = useConfigurationContext()!
+    const { configuration, loading } = useConfigurationContext()!
     const location = useLocation()
     const navigate = useNavigate()
 
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
                     </button>
                 )}
                 <h1 className="text-xl font-semibold">
-                    {configuration.header_text}
+                    {!loading && configuration.header_text}
                 </h1>
             </div>
             <div className="flex gap-2">
