@@ -1,63 +1,67 @@
 // eslint-disable-next-line
 // @ts-ignore
 import { Swiftyper } from 'swiftyper-node'
+import { AsyncCacheAdapter } from './AsyncCacheAdapter'
 
 export default class SwiftyperService {
-    client!: Swiftyper
-    locale: null | string = null
+    private client: Swiftyper
+    private cache: AsyncCacheAdapter
+    private locale: null | string = null
 
     constructor(client: Swiftyper) {
         this.client = client
+        this.cache = new AsyncCacheAdapter()
+    }
+
+    proxy(
+        [ns, method]: [string, string],
+        ...params: any
+    ): ReturnType<AsyncCacheAdapter['wrap']> {
+        const service = this.client[ns]
+        const factory = this.cache.wrap(
+            [ns, method].join('.'),
+            service[method].bind(service)
+        )
+
+        return factory(...params)
     }
 
     configuration() {
-        const { locale } = this
-
-        return this.client.helpCenter.configuration({
-            locale,
+        return this.proxy(['helpCenter', 'configuration'], {
+            locale: this.locale,
         })
     }
 
     category(id: string) {
-        const { locale } = this
-
-        return this.client.helpCenterCategories.detail(id, {
-            locale,
+        return this.proxy(['helpCenterCategories', 'detail'], id, {
+            locale: this.locale,
         })
     }
 
     categories(query = '') {
-        const { locale } = this
-
-        return this.client.helpCenterCategories.query({
+        return this.proxy(['helpCenterCategories', 'query'], {
             query,
-            locale,
+            locale: this.locale,
             include_articles: true,
         })
     }
 
     popularArticles() {
-        const { locale } = this
-
-        return this.client.helpCenterArticles.popular({
-            locale,
+        return this.proxy(['helpCenterArticles', 'popular'], {
+            locale: this.locale,
         })
     }
 
     articles(query = '') {
-        const { locale } = this
-
-        return this.client.helpCenterArticles.query({
+        return this.proxy(['helpCenterArticles', 'query'], {
             query,
-            locale,
+            locale: this.locale,
         })
     }
 
     article(id: string, params: { locale?: string } = {}) {
-        const { locale } = this
-
-        return this.client.helpCenterArticles.detail(id, {
-            locale,
+        return this.proxy(['helpCenterArticles', 'detail'], id, {
+            locale: this.locale,
             ...params,
         })
     }
