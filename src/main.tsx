@@ -1,4 +1,5 @@
 import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 import { SwiftyperProvider } from './providers/SwiftyperProvider'
 import { SwiftyperServiceProvider } from './providers/SwiftyperServiceProvider'
@@ -13,7 +14,9 @@ createRoot(document.getElementById('root')!).render(
     <SwiftyperProvider token={token} locale={locale}>
         <SwiftyperServiceProvider>
             <ConfigurationProvider>
-                <App />
+                <BrowserRouter>
+                    <App />
+                </BrowserRouter>
             </ConfigurationProvider>
         </SwiftyperServiceProvider>
     </SwiftyperProvider>

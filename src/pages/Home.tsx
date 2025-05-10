@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import SearchInput from '@/components/SearchInput'
 import SearchResults from '@/components/SearchResults.tsx'
 import Loader from '@/components/Loader'
@@ -6,10 +6,16 @@ import PopularArticles from '@/components/PopularArticles.tsx'
 import { useConfigurationContext } from '@/contexts/ConfigurationContext'
 import useFetchSearchResults from '@/hooks/useFetchSearchResults'
 import useFetchPopularArticles from '@/hooks/useFetchPopularArticles'
+import { useSearchParams } from 'react-router-dom'
 
 const Home: React.FC = () => {
     const { configuration } = useConfigurationContext()!
+    const [searchParams] = useSearchParams()
     const [query, setQuery] = useState<string>('')
+
+    useEffect(() => {
+        setQuery(searchParams.get('query') || '')
+    }, [searchParams])
 
     const {
         popularArticles,

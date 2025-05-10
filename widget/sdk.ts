@@ -3,7 +3,12 @@ declare global {
         helpCenterWidgetSDK: {
             run: (config: HelpCenterWidgetConfig) => void
             toggle: () => void
+            navigate: (
+                route: 'search' | 'category' | 'article',
+                idOrQuery: string
+            ) => void
             hasLoaded: boolean
+            isReady: boolean
         }
     }
 }
@@ -115,12 +120,56 @@ export class HelpCenterWidget {
         const widget = new HelpCenterWidget(config)
         window.helpCenterWidgetSDK.hasLoaded = true
         window.helpCenterWidgetSDK.toggle = widget.toggle.bind(widget)
+        window.helpCenterWidgetSDK.navigate = widget.navigate.bind(widget)
+    }
+
+    public navigate(
+        route: 'search' | 'category' | 'article',
+        idOrQuery: string
+    ) {
+        if (!this.config.isOpen) {
+            this.toggle()
+        }
+
+        let pathname
+        const params: { [key: string]: string } = {}
+        switch (route) {
+            case 'search':
+                pathname = '/search'
+                params.query = idOrQuery
+                break
+            case 'category':
+                pathname = `/category/${idOrQuery}`
+                break
+            case 'article':
+                pathname = `/article/${idOrQuery}`
+                break
+            default:
+                throw new Error(`Invalid route: ${route}`)
+        }
+
+        const handleMessage = () => {
+            this.iframe!.contentWindow?.postMessage(
+                {
+                    type: 'NAVIGATE',
+                    payload: {
+                        pathname,
+                        params,
+                    },
+                },
+                '*'
+            )
+        }
+        if (window.helpCenterWidgetSDK.isReady) {
+            handleMessage()
+        } else {
+            this.iframe!.addEventListener('load', handleMessage)
+        }
     }
 
     public toggle() {
         const isModal = this.config.displayMode === 'modal'
         const transform = isModal ? 'translate(-50%, -50%)' : 'translateY(0)'
-        const shouldShow = !this.iframe || this.iframe.style.opacity === '0'
 
         if (!this.iframe) {
             this.createIframe()
@@ -129,15 +178,19 @@ export class HelpCenterWidget {
             }
         }
 
-        this.setElementVisibility(this.iframe!, shouldShow, { transform })
+        this.setElementVisibility(this.iframe!, !this.config.isOpen, {
+            transform,
+        })
 
         if (this.backdrop) {
-            this.setElementVisibility(this.backdrop, shouldShow)
+            this.setElementVisibility(this.backdrop, !this.config.isOpen)
         }
 
         if (this.button) {
-            this.button.style.opacity = shouldShow ? '0' : '1'
+            this.button.style.opacity = !this.config.isOpen ? '0' : '1'
         }
+
+        this.config.isOpen = !this.config.isOpen
     }
 
     private injectWidgetStyles(cssText: string) {
@@ -232,6 +285,10 @@ export class HelpCenterWidget {
 
         this.iframe.src = `${WIDGET_IFRAME_ENDPOINT}?api_key=${this.config.apiKey}&locale=${this.config.locale}`
         document.body.appendChild(this.iframe)
+
+        this.iframe.onload = () => {
+            window.helpCenterWidgetSDK.isReady = true
+        }
     }
 
     private createButton(): void {
@@ -337,5 +394,7 @@ export class HelpCenterWidget {
 window.helpCenterWidgetSDK = {
     run: HelpCenterWidget.run,
     toggle: () => {},
+    navigate: () => {},
     hasLoaded: false,
+    isReady: false,
 }
