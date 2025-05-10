@@ -2,7 +2,7 @@ declare global {
     interface Window {
         helpCenterWidgetSDK: {
             run: (config: HelpCenterWidgetConfig) => void
-            toggle: () => void
+            toggle: (state?: boolean) => void
             navigate: (
                 route: 'search' | 'category' | 'article',
                 idOrQuery: string
@@ -128,7 +128,7 @@ export class HelpCenterWidget {
         idOrQuery: string
     ) {
         if (!this.config.isOpen) {
-            this.toggle()
+            this.toggle(true)
         }
 
         let pathname
@@ -149,7 +149,7 @@ export class HelpCenterWidget {
         }
 
         const handleMessage = () => {
-            this.iframe!.contentWindow?.postMessage(
+            this.iframe!.contentWindow!.postMessage(
                 {
                     type: 'NAVIGATE',
                     payload: {
@@ -167,7 +167,8 @@ export class HelpCenterWidget {
         }
     }
 
-    public toggle() {
+    public toggle(state?: boolean) {
+        const nextState = state ?? !this.config.isOpen
         const isModal = this.config.displayMode === 'modal'
         const transform = isModal ? 'translate(-50%, -50%)' : 'translateY(0)'
 
@@ -178,19 +179,19 @@ export class HelpCenterWidget {
             }
         }
 
-        this.setElementVisibility(this.iframe!, !this.config.isOpen, {
+        this.setElementVisibility(this.iframe!, nextState, {
             transform,
         })
 
         if (this.backdrop) {
-            this.setElementVisibility(this.backdrop, !this.config.isOpen)
+            this.setElementVisibility(this.backdrop, nextState)
         }
 
         if (this.button) {
-            this.button.style.opacity = !this.config.isOpen ? '0' : '1'
+            this.button.style.opacity = nextState ? '0' : '1'
         }
 
-        this.config.isOpen = !this.config.isOpen
+        this.config.isOpen = nextState
     }
 
     private injectWidgetStyles(cssText: string) {
@@ -385,7 +386,7 @@ export class HelpCenterWidget {
         this.createButton()
         this.bindEvents()
         if (this.config.isOpen) {
-            this.toggle()
+            this.toggle(true)
         }
         window.dispatchEvent(new Event('helpCenterWidgetReady'))
     }
