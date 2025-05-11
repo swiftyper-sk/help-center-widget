@@ -7,6 +7,7 @@ import LocaleSelector from '@/components/LocaleSelector.tsx'
 import { useFetchArticle } from '@/hooks/useFetchArticle'
 import formatDate from '@/utils/formatDate'
 import fbt from 'fbt'
+import Tabs from '@/components/Tabs.tsx'
 
 const Article: React.FC = () => {
     const swiftyper = useSwiftyperContext()!
@@ -31,6 +32,7 @@ const Article: React.FC = () => {
     return (
         <>
             <div className="max-w-5xl mx-auto space-y-4 w-full pb-4">
+                <Tabs tab="articles" />
                 <Breadcrumb category={article.category} />
                 <h1 className="text-3xl font-semibold leading-normal md:tracking-normal md:text-4xl text-slate-900 dark:text-white">
                     {article.title}

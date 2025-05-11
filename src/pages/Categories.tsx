@@ -3,6 +3,7 @@ import { ChevronRight } from 'lucide-react'
 import Link from '@/components/Link'
 import Loader from '@/components/Loader'
 import useFetchCategories from '@/hooks/useFetchCategories'
+import Tabs from '@/components/Tabs.tsx'
 
 const Categories: React.FC = () => {
     const { categories, loading, error } = useFetchCategories()
@@ -17,6 +18,7 @@ const Categories: React.FC = () => {
 
     return (
         <div className="max-w-5xl w-full flex flex-col flex-grow mx-auto gap-6">
+            <Tabs tab="articles" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6">
                 <section className="flex flex-col w-full h-full lg:container">
                     {categories.map((category) => (

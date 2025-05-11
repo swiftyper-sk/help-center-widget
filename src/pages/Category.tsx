@@ -6,6 +6,7 @@ import Loader from '@/components/Loader'
 import useFetchCategory from '@/hooks/useFetchCategory'
 import formatDate from '@/utils/formatDate'
 import fbt from 'fbt'
+import Tabs from '@/components/Tabs.tsx'
 
 const Category: React.FC = () => {
     const { id } = useParams<{ id: string }>()
@@ -22,6 +23,7 @@ const Category: React.FC = () => {
     return (
         <>
             <div className="max-w-5xl mx-auto space-y-4 w-full pb-4">
+                <Tabs tab="articles" />
                 <Breadcrumb category={category} />
                 <div className="flex justify-start flex-col items-start w-full gap-2">
                     <div className="flex flex-col gap-2">

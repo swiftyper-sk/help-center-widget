@@ -34,7 +34,7 @@ const LocaleSelector: React.FC<LocaleSelectorProps> = ({
     )
 
     return (
-        <div className="flex gap-2.5 shadow-lg shadow-gray-900/5 rounded-xl border border-yellow-500/20 bg-yellow-50/50 p-4 text-sm/6 text-yellow-900 dark:border-yellow-500/30 dark:bg-yellow-500/5 dark:text-yellow-200">
+        <div className="flex max-w-5xl mx-auto w-full gap-2.5 shadow-lg shadow-gray-900/5 rounded-xl border border-yellow-500/20 bg-yellow-50/50 p-4 text-sm/6 text-yellow-900 dark:border-yellow-500/30 dark:bg-yellow-500/5 dark:text-yellow-200">
             <Info className="h-5 w-5 flex-shrink-0 text-yellow-500 dark:text-yellow-400" />
             <div>
                 <p>

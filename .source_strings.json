@@ -29,9 +29,9 @@
     }
    },
    "filepath": "src\\components\\ErrorBoundary.tsx",
-   "line_beg": 55,
+   "line_beg": 54,
    "col_beg": 29,
-   "line_end": 58,
+   "line_end": 57,
    "col_end": 29,
    "project": "",
    "jsfbt": {
@@ -50,9 +50,9 @@
     }
    },
    "filepath": "src\\components\\ErrorBoundary.tsx",
-   "line_beg": 61,
+   "line_beg": 60,
    "col_beg": 29,
-   "line_end": 64,
+   "line_end": 63,
    "col_end": 29,
    "project": "",
    "jsfbt": {
@@ -71,9 +71,9 @@
     }
    },
    "filepath": "src\\components\\ErrorBoundary.tsx",
-   "line_beg": 71,
+   "line_beg": 70,
    "col_beg": 25,
-   "line_end": 71,
+   "line_end": 70,
    "col_end": 64,
    "project": "",
    "jsfbt": {
@@ -218,10 +218,10 @@
     }
    },
    "filepath": "src\\components\\SearchInput.tsx",
-   "line_beg": 32,
-   "col_beg": 29,
-   "line_end": 35,
-   "col_end": 17,
+   "line_beg": 22,
+   "col_beg": 25,
+   "line_end": 25,
+   "col_end": 13,
    "project": "",
    "jsfbt": {
     "t": {
@@ -296,15 +296,57 @@
   },
   {
    "hashToLeaf": {
+    "39o94cm7YEO6mA86PnUJhw==": {
+     "text": "Articles",
+     "desc": "tab label"
+    }
+   },
+   "filepath": "src\\components\\Tabs.tsx",
+   "line_beg": 18,
+   "col_beg": 19,
+   "line_end": 18,
+   "col_end": 47,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "tab label",
+     "text": "Articles"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "WA7AMy6nkt3uWIXMhoxZiQ==": {
+     "text": "Contact Us",
+     "desc": "tab label"
+    }
+   },
+   "filepath": "src\\components\\Tabs.tsx",
+   "line_beg": 24,
+   "col_beg": 19,
+   "line_end": 24,
+   "col_end": 49,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "tab label",
+     "text": "Contact Us"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
     "q0JdTyWcQGluLChecoOvlQ==": {
      "text": "Last updated on {date}",
      "desc": "Text for last updated date"
     }
    },
    "filepath": "src\\pages\\Article.tsx",
-   "line_beg": 41,
+   "line_beg": 43,
    "col_beg": 29,
-   "line_end": 48,
+   "line_end": 50,
    "col_end": 29,
    "project": "",
    "jsfbt": {
@@ -327,9 +369,9 @@
     }
    },
    "filepath": "src\\pages\\Category.tsx",
-   "line_beg": 34,
+   "line_beg": 36,
    "col_beg": 29,
-   "line_end": 43,
+   "line_end": 45,
    "col_end": 29,
    "project": "",
    "jsfbt": {
@@ -360,15 +402,228 @@
     }
    },
    "filepath": "src\\pages\\Category.tsx",
-   "line_beg": 68,
+   "line_beg": 70,
    "col_beg": 41,
-   "line_end": 77,
+   "line_end": 79,
    "col_end": 41,
    "project": "",
    "jsfbt": {
     "t": {
      "desc": "Text for last updated date",
      "text": "Last updated on {date}"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "iHH7Aj/k9He9/FQW4uV6rQ==": {
+     "text": "Contact Form",
+     "desc": "Link to the contact form"
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 46,
+   "col_beg": 21,
+   "line_end": 46,
+   "col_end": 68,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "Link to the contact form",
+     "text": "Contact Form"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "XAFGcoC3ZHzIqCIxqXH0bA==": {
+     "text": "We have received your message!",
+     "desc": "success message"
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 54,
+   "col_beg": 29,
+   "line_end": 57,
+   "col_end": 29,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "success message",
+     "text": "We have received your message!"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "PeNhbdQJNvExeqYtt5oXjQ==": {
+     "text": "Thank you for reaching out to us. We appreciate your message and will get back to you as soon as possible.",
+     "desc": "success message"
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 60,
+   "col_beg": 29,
+   "line_end": 63,
+   "col_end": 29,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "success message",
+     "text": "Thank you for reaching out to us. We appreciate your message and will get back to you as soon as possible."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "LZQ9mo0k9oc8tlEy2wK5sg==": {
+     "text": "Full Name",
+     "desc": "form label"
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 71,
+   "col_beg": 29,
+   "line_end": 71,
+   "col_end": 59,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "form label",
+     "text": "Full Name"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "OKb6zB54+Ul2UACwhdDhHA==": {
+     "text": "Email",
+     "desc": "form label"
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 82,
+   "col_beg": 29,
+   "line_end": 82,
+   "col_end": 55,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "form label",
+     "text": "Email"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "JeV6VLFqxhR6493BAMWZlQ==": {
+     "text": "How can we help?",
+     "desc": "form label"
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 94,
+   "col_beg": 29,
+   "line_end": 94,
+   "col_end": 66,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "form label",
+     "text": "How can we help?"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "HhUkchriDsrqfQ8l2QjFPg==": {
+     "text": "We will use this personal data to process your question and answer it. More information on the processing of personal data can be found in our {=Privacy Policy}.",
+     "desc": "contact form terms and conditions"
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 116,
+   "col_beg": 24,
+   "line_end": 130,
+   "col_end": 30,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "contact form terms and conditions",
+     "text": "We will use this personal data to process your question and answer it. More information on the processing of personal data can be found in our {=Privacy Policy}.",
+     "tokenAliases": {
+      "=Privacy Policy": "=m2"
+     }
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "byDgrCqemItqlut+2LGuNw==": {
+     "text": "Privacy Policy",
+     "desc": "In the phrase: \"We will use this personal data to process your question and answer it. More information on the processing of personal data can be found in our {=Privacy Policy}.\""
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 120,
+   "col_beg": 28,
+   "line_end": 129,
+   "col_end": 32,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "In the phrase: \"We will use this personal data to process your question and answer it. More information on the processing of personal data can be found in our {=Privacy Policy}.\"",
+     "text": "Privacy Policy"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "5rekuIpcqU3WKAz/5fqLRQ==": {
+     "text": "Sending...",
+     "desc": "button loading label"
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 141,
+   "col_beg": 30,
+   "line_end": 141,
+   "col_end": 71,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "button loading label",
+     "text": "Sending..."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "s1+K142L1aQjEl3F7PcQWA==": {
+     "text": "Send Message",
+     "desc": "button label"
+    }
+   },
+   "filepath": "src\\pages\\Contact.tsx",
+   "line_beg": 142,
+   "col_beg": 30,
+   "line_end": 142,
+   "col_end": 65,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "button label",
+     "text": "Send Message"
     },
     "m": []
    }

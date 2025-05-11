@@ -24,6 +24,7 @@
     "@babel/preset-typescript": "^7.27.0",
     "babel-plugin-fbt": "^1.0.0",
     "babel-plugin-fbt-runtime": "^1.0.0",
+    "classnames": "^2.5.1",
     "fbt": "^1.0.0",
     "fbt-sync": "^1.0.4",
     "graceful-fs": "^4.2.11",

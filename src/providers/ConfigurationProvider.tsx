@@ -17,6 +17,7 @@ export const ConfigurationProvider = (props: ConfigurationProviderProps) => {
             "Find answers to the most commonly asked questions bellow. Search for topics you're interested in or sort by category.",
             'Widget introduction text'
         ),
+        privacy_policy_url: '#',
         color: '#3b82f6',
         logo: true,
         locales: {},

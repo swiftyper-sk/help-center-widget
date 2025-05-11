@@ -13,7 +13,7 @@ const PopularArticles: React.FC<PopularArticlesProps> = ({ articles }) => {
     const { configuration } = useConfigurationContext()!
 
     return (
-        <div className="max-w-5xl w-full mx-auto shadow-lg shadow-gray-900/5 rounded-xl border border-gray-500/5 dark:border-gray-300/[0.06] dark:bg-zinc-800 px-5 py-4">
+        <div className="w-full mx-auto shadow-lg shadow-gray-900/5 rounded-xl border border-gray-300 dark:border-zinc-700 dark:bg-zinc-800 px-5 py-4">
             <div className="flex flex-col gap-3">
                 <h3 className="font-bold text-gray-900 dark:text-gray-200">
                     {fbt('Popular Articles', 'Title in the home page')}
