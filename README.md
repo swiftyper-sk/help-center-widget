@@ -77,10 +77,10 @@ Follow these steps to integrate the widget into your website:
 
 3. Customize the configuration options as needed.
 
-## 🌟 Contributing
+## 🤝 Contributing
 
 We welcome contributions! If you'd like to help improve this project, feel free to open an issue or submit a pull request.
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
