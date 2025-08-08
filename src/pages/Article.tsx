@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { useSwiftyperContext } from '@/contexts/SwiftyperContext.ts'
-import Markdown from "@/components/Markdown.tsx";
+import Markdown from '@/components/Markdown.tsx'
 import Breadcrumb from '@/components/Breadcrumb'
 import Loader from '@/components/Loader'
 import LocaleSelector from '@/components/LocaleSelector.tsx'
@@ -63,7 +63,7 @@ const Article: React.FC = () => {
                     id="article-content"
                     className="flex-grow flex-2 mx-auto text-slate-800 dark:text-slate-50 text-lg max-w-5xl break-words w-full py-4"
                 >
-                    <Markdown children={article.full_text}/>
+                    <Markdown children={article.full_text} />
                 </article>
             </div>
         </>

@@ -41,9 +41,7 @@ const Markdown = ({ children }: MarkdownProps) => (
         components={{
             blockquote({ children }) {
                 const nodes = React.Children.toArray(children)
-                const element = nodes.find((node) =>
-                    React.isValidElement(node)
-                )
+                const element = nodes.find((node) => React.isValidElement(node))
                 const textContent = renderToStaticMarkup(
                     element?.props?.children ?? ''
                 )

@@ -163,7 +163,9 @@ export class HelpCenterWidget {
         if (window.helpCenterWidgetSDK.isReady) {
             handleMessage()
         } else {
-            this.iframe!.addEventListener('load', handleMessage)
+            this.iframe!.addEventListener('widget:load', handleMessage, {
+                once: true,
+            })
         }
     }
 
@@ -285,11 +287,16 @@ export class HelpCenterWidget {
         })
 
         this.iframe.src = `${WIDGET_IFRAME_ENDPOINT}?api_key=${this.config.apiKey}&locale=${this.config.locale}`
-        document.body.appendChild(this.iframe)
 
-        this.iframe.onload = () => {
-            window.helpCenterWidgetSDK.isReady = true
-        }
+        this.iframe.addEventListener(
+            'widget:load',
+            () => {
+                window.helpCenterWidgetSDK.isReady = true
+            },
+            { once: true }
+        )
+
+        document.body.appendChild(this.iframe)
     }
 
     private createButton(): void {
@@ -349,6 +356,8 @@ export class HelpCenterWidget {
         window.addEventListener('message', ({ data }) => {
             if (data === 'close-help-center') {
                 this.toggle()
+            } else if (data === 'help-center-ready') {
+                this.iframe!.dispatchEvent(new CustomEvent('widget:load'))
             }
         })
         document.addEventListener('click', ({ target }) => {

@@ -49,6 +49,7 @@ export default function App() {
     )
 
     useEffect(() => {
+        window.parent.postMessage('help-center-ready', '*')
         window.addEventListener('message', handlePostMessageFromIframe)
         return () => {
             window.removeEventListener('message', handlePostMessageFromIframe)
