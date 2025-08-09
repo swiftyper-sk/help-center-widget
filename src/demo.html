@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Swiftyper - Help Center Widget</title>
+
+    <style>
+        body {
+            font-family: Urbanist,ui-sans-serif,system-ui,sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #4267b2;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #222;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .btn {
+            background: #000;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .clear {
+            background: #e3342f;
+            color: white;
+        }
+
+        .btn * {
+            color: white;
+            text-decoration: #fff;
+        }
+
+        .content {
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            text-align: center;
+            height: 500px;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1>Help Center Widget Demo</h1>
+
+    <button class="btn" onclick="helpCenterWidgetSDK.navigate('search', 'password')">
+        Open Search
+    </button>
+
+    <button class="btn" onclick="helpCenterWidgetSDK.navigate('article', 'fa51697c-672a-11f0-93ff-0242ac1b0002')">
+        Open Article
+    </button>
+
+    <button class="btn" onclick="helpCenterWidgetSDK.navigate('category', 'e564dc08-67d0-11f0-93ff-0242ac1b0002')">
+        Open Category
+    </button>
+
+    <button class="btn" onclick="helpCenterWidgetSDK.navigate('contact')">
+        Open Contact Form
+    </button>
+
+    <span>
+        <small>
+            This is a demo page for the Swiftyper Help Center Widget. You can use the buttons above to navigate to different sections of the widget.
+        </small>
+    </span>
+
+    <br/>
+
+    <button class="btn clear" onclick="localStorage.removeItem('swiftyper-help-center-widget');window.location.reload()">
+        Clear Local Storage
+    </button>
+
+    <span>
+        <small id="loading">
+            Widget is loading...
+        </small>
+    </span>
+</div>
+
+<script>
+    const script = document.createElement('script')
+    script.src = 'https://widget.swiftyper.sk/sdk.iife.js'
+    script.type = 'module'
+    script.async = true
+    script.defer = true
+    script.onload = function () {
+        window.helpCenterWidgetSDK.run({
+            apiKey: '',
+            locale: 'cs_CZ',
+            launcherMargin: '1rem',
+            displayMode: 'modal',
+            isOpen: false,
+            launcherBackgroundColor: '#2563eb',
+            launcherColor: '#fff',
+        })
+    }
+    document.head.appendChild(script)
+
+    window.addEventListener('helpCenterWidgetReady', function () {
+        loading.innerHTML = 'Widget is ready!'
+        loading.style.color = 'green'
+    })
+</script>
+</body>
+</html>
