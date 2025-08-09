@@ -74,6 +74,7 @@ const Contact: React.FC = () => {
                             name="name"
                             value={form.name}
                             onInput={handleChange}
+                            readOnly={loading}
                             required
                         />
                     </div>
@@ -86,6 +87,7 @@ const Contact: React.FC = () => {
                             type="email"
                             value={form.email}
                             onInput={handleChange}
+                            readOnly={loading}
                             required
                         />
                     </div>
@@ -101,6 +103,7 @@ const Contact: React.FC = () => {
                             value={form.message}
                             onInput={handleChange}
                             maxLength={MAX_MESSAGE_LENGTH}
+                            readOnly={loading}
                             required
                             className="min-h-[80px]"
                             aria-describedby="message-length"

@@ -1,4 +1,4 @@
-import React, { useState, forwardRef, useRef, useEffect } from 'react'
+import React, { useState, forwardRef, useRef } from 'react'
 import { useConfigurationContext } from '@/contexts/ConfigurationContext.ts'
 import classNames from 'classnames'
 import useAutosizeTextArea from '@/hooks/useAutogrowTextarea.ts'
@@ -6,6 +6,7 @@ import useAutosizeTextArea from '@/hooks/useAutogrowTextarea.ts'
 type InputProps = {
     multiline?: boolean
     autoGrow?: boolean
+    readOnly?: boolean
     value?: string
     name?: string
     type?: string
