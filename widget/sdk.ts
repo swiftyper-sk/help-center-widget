@@ -5,7 +5,7 @@ declare global {
             toggle: (state?: boolean) => void
             navigate: (
                 route: 'search' | 'category' | 'article' | 'contact',
-                idOrQuery: string
+                idOrQuery?: string
             ) => void
             hasLoaded: boolean
             isReady: boolean
@@ -125,7 +125,7 @@ export class HelpCenterWidget {
 
     public navigate(
         route: 'search' | 'category' | 'article' | 'contact',
-        idOrQuery: string
+        idOrQuery?: string
     ) {
         if (!this.config.isOpen) {
             this.toggle(true)
