@@ -5,6 +5,7 @@ import { AsyncCacheAdapter } from './AsyncCacheAdapter'
 import { Category } from '@/types/Category.ts'
 import { Article } from '@/types/Article.ts'
 import { Configuration } from '@/types/Configuration.ts'
+import { ChatMessage, ChatStreamEvent } from '@/types/Chat.ts'
 
 export default class SwiftyperService {
     private readonly client: Swiftyper
@@ -14,6 +15,11 @@ export default class SwiftyperService {
     constructor(client: Swiftyper) {
         this.client = client
         this.cache = new AsyncCacheAdapter()
+    }
+
+    private invoke([ns, method]: [string, string], ...params: any[]) {
+        const service = this.client[ns]
+        return service[method].bind(service)(...params)
     }
 
     proxy<T>([ns, method]: [string, string], ...params: any[]): Promise<T> {
@@ -26,14 +32,86 @@ export default class SwiftyperService {
         return factory(...params)
     }
 
+    call<T>(route: [string, string], ...params: any[]): Promise<T> {
+        return this.invoke(route, ...params)
+    }
+
+    callStream<T>(route: [string, string], ...params: any[]): AsyncIterable<T> {
+        return this.invoke(route, ...params)
+    }
+
     configuration() {
         return this.proxy<Configuration>(['helpCenter', 'configuration'], {
             locale: this.locale,
         })
     }
 
+    handoffContact(requestId: string, contact: string, locale: string) {
+        return this.call<ChatMessage>(
+            ['helpCenterChat', 'contact'],
+            requestId,
+            {
+                contact,
+                locale,
+            }
+        )
+    }
+
+    streamChat(
+        data: { message: string; session_id: string; locale: string },
+        signal?: AbortSignal // todo
+    ) {
+        return this.callStream<ChatStreamEvent>(
+            ['helpCenterChat', 'stream'],
+            data
+        )
+    }
+
+    handoffSkip(requestId: string, locale: string) {
+        return this.call<ChatMessage>(['helpCenterChat', 'skip'], requestId, {
+            locale,
+        })
+    }
+
+    handoff(
+        session_id: string,
+        data: {
+            locale: string
+            contact: string
+            keep_open: boolean
+            reason: string
+        }
+    ) {
+        return this.call<ChatMessage>(
+            ['helpCenterChat', 'handoff'],
+            session_id,
+            data
+        )
+    }
+
+    saveFeedback(sessionId: string, rating: number) {
+        return this.call<{ message: string }>(
+            ['helpCenterChat', 'feedback'],
+            sessionId,
+            {
+                rating,
+            }
+        )
+    }
+
+    endSession(sessionId: string, locale: string) {
+        return this.call<{ message: string; contact?: unknown }>(
+            ['helpCenterChat', 'end'],
+            sessionId,
+            {
+                locale,
+                reason: 'user',
+            }
+        )
+    }
+
     contact(data: { name: string; email: string; message: string }) {
-        return this.proxy(['helpCenter', 'contact'], data)
+        return this.call(['helpCenter', 'contact'], data)
     }
 
     category(id: string) {

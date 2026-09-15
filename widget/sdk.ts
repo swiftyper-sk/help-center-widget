@@ -4,7 +4,7 @@ declare global {
             run: (config: HelpCenterWidgetConfig) => void
             toggle: (state?: boolean) => void
             navigate: (
-                route: 'search' | 'category' | 'article' | 'contact',
+                route: 'search' | 'category' | 'article' | 'contact' | 'chat',
                 idOrQuery?: string
             ) => void
             hasLoaded: boolean
@@ -124,7 +124,7 @@ export class HelpCenterWidget {
     }
 
     public navigate(
-        route: 'search' | 'category' | 'article' | 'contact',
+        route: 'search' | 'category' | 'article' | 'contact' | 'chat',
         idOrQuery?: string
     ) {
         if (!this.config.isOpen) {
@@ -146,6 +146,9 @@ export class HelpCenterWidget {
                 break
             case 'contact':
                 pathname = `/contact`
+                break
+            case 'chat':
+                pathname = `/chat`
                 break
             default:
                 throw new Error(`Invalid route: ${route}`)

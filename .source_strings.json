@@ -23,6 +23,216 @@
   },
   {
    "hashToLeaf": {
+    "91Obct7KmRX/Wp5M/GpzOw==": {
+     "text": "Send",
+     "desc": "send chat message button"
+    }
+   },
+   "filepath": "src\\components\\chat\\ChatInput.tsx",
+   "line_beg": 60,
+   "col_beg": 23,
+   "line_end": 60,
+   "col_end": 62,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "send chat message button",
+     "text": "Send"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "JiVQZMh9b4/mxp6d90QoyA==": {
+     "text": "Sources",
+     "desc": "label before the cited sources"
+    }
+   },
+   "filepath": "src\\components\\chat\\ChatMessage.tsx",
+   "line_beg": 206,
+   "col_beg": 15,
+   "line_end": 206,
+   "col_end": 63,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "label before the cited sources",
+     "text": "Sources"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "SP1w8L93SP7DUaklwxDZxQ==": {
+     "text": "your@email.com",
+     "desc": "e-mail placeholder"
+    }
+   },
+   "filepath": "src\\components\\chat\\ChatMessage.tsx",
+   "line_beg": 338,
+   "col_beg": 33,
+   "line_end": 338,
+   "col_end": 76,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "e-mail placeholder",
+     "text": "your@email.com"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "uF7qhB5BHdni+qnppWzRFA==": {
+     "text": "Send",
+     "desc": "submit e-mail button"
+    }
+   },
+   "filepath": "src\\components\\chat\\ChatMessage.tsx",
+   "line_beg": 353,
+   "col_beg": 21,
+   "line_end": 353,
+   "col_end": 56,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "submit e-mail button",
+     "text": "Send"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "M0gwanxE2A/gStwCLa02MQ==": {
+     "text": "Please enter a valid e-mail address.",
+     "desc": "validation"
+    }
+   },
+   "filepath": "src\\components\\chat\\ChatMessage.tsx",
+   "line_beg": 358,
+   "col_beg": 21,
+   "line_end": 358,
+   "col_end": 78,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "validation",
+     "text": "Please enter a valid e-mail address."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "63p2Vu+n1oLlxZ71Lqdinw==": {
+     "text": "Continue without leaving an e-mail",
+     "desc": "skip the handoff e-mail"
+    }
+   },
+   "filepath": "src\\components\\chat\\ChatMessage.tsx",
+   "line_beg": 384,
+   "col_beg": 19,
+   "line_end": 387,
+   "col_end": 9,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "skip the handoff e-mail",
+     "text": "Continue without leaving an e-mail"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "xlpAZAp74dNPZ8jGAVtdvg==": {
+     "text": "Dismiss",
+     "desc": "close the e-mail prompt"
+    }
+   },
+   "filepath": "src\\components\\chat\\ChatMessage.tsx",
+   "line_beg": 400,
+   "col_beg": 19,
+   "line_end": 400,
+   "col_end": 60,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "close the e-mail prompt",
+     "text": "Dismiss"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "NLygQWkp7QaPk1JCFJ5vXA==": {
+     "text": "In stock",
+     "desc": "product availability"
+    }
+   },
+   "filepath": "src\\components\\chat\\ProductCards.tsx",
+   "line_beg": 104,
+   "col_beg": 42,
+   "line_end": 107,
+   "col_end": 43,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "product availability",
+     "text": "In stock"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "AT5Y5nqlWVidbS0gCFARmw==": {
+     "text": "Out of stock",
+     "desc": "product availability"
+    }
+   },
+   "filepath": "src\\components\\chat\\ProductCards.tsx",
+   "line_beg": 108,
+   "col_beg": 42,
+   "line_end": 111,
+   "col_end": 43,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "product availability",
+     "text": "Out of stock"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "zxaijUOULs7gElBbohGRAA==": {
+     "text": "View",
+     "desc": "open the product page"
+    }
+   },
+   "filepath": "src\\components\\chat\\ProductCards.tsx",
+   "line_beg": 119,
+   "col_beg": 37,
+   "line_end": 119,
+   "col_end": 73,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "open the product page",
+     "text": "View"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
     "iasSLJFz4Hp4+C8a4qwY1Q==": {
      "text": "Oops! Something went wrong.",
      "desc": "Title for error page"
@@ -317,15 +527,36 @@
   },
   {
    "hashToLeaf": {
+    "VNyzLZi67Q8V/MaVQ8PnYw==": {
+     "text": "Chat",
+     "desc": "tab label"
+    }
+   },
+   "filepath": "src\\components\\Tabs.tsx",
+   "line_beg": 25,
+   "col_beg": 19,
+   "line_end": 25,
+   "col_end": 43,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "tab label",
+     "text": "Chat"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
     "WA7AMy6nkt3uWIXMhoxZiQ==": {
      "text": "Contact Us",
      "desc": "tab label"
     }
    },
    "filepath": "src\\components\\Tabs.tsx",
-   "line_beg": 24,
+   "line_beg": 32,
    "col_beg": 19,
-   "line_end": 24,
+   "line_end": 32,
    "col_end": 49,
    "project": "",
    "jsfbt": {
@@ -411,6 +642,384 @@
     "t": {
      "desc": "Text for last updated date",
      "text": "Last updated on {date}"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "5/SznQPUCQVg1Y9rqdGzyA==": {
+     "text": "Bad",
+     "desc": "chat feedback rating 1 of 5"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 33,
+   "col_beg": 11,
+   "line_end": 33,
+   "col_end": 52,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat feedback rating 1 of 5",
+     "text": "Bad"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "jvbVXkUWYdtIyKsSp7kZPg==": {
+     "text": "Not great",
+     "desc": "chat feedback rating 2 of 5"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 34,
+   "col_beg": 11,
+   "line_end": 34,
+   "col_end": 58,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat feedback rating 2 of 5",
+     "text": "Not great"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "dpRl2pfrFB74Nw2w2mlmow==": {
+     "text": "Okay",
+     "desc": "chat feedback rating 3 of 5"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 35,
+   "col_beg": 11,
+   "line_end": 35,
+   "col_end": 53,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat feedback rating 3 of 5",
+     "text": "Okay"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "tdod8zkwwMp6xCwMhkFrfw==": {
+     "text": "Good",
+     "desc": "chat feedback rating 4 of 5"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 36,
+   "col_beg": 11,
+   "line_end": 36,
+   "col_end": 53,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat feedback rating 4 of 5",
+     "text": "Good"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "FF37k70vf3HgkgLkHx6b0w==": {
+     "text": "Great",
+     "desc": "chat feedback rating 5 of 5"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 37,
+   "col_beg": 11,
+   "line_end": 37,
+   "col_end": 54,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat feedback rating 5 of 5",
+     "text": "Great"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "l4Xxevg5U6qKzKEuWBEkBA==": {
+     "text": "Too many messages, please wait a moment.",
+     "desc": "chat rate limit error"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 109,
+   "col_beg": 16,
+   "line_end": 112,
+   "col_end": 17,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat rate limit error",
+     "text": "Too many messages, please wait a moment."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "ZjhYeBIlgVuWpCcPL8hA8A==": {
+     "text": "Something went wrong.",
+     "desc": "chat generic error"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 117,
+   "col_beg": 20,
+   "line_end": 117,
+   "col_end": 70,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat generic error",
+     "text": "Something went wrong."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "zTq4kup706kVxbAQwtlovw==": {
+     "text": "Thinking…",
+     "desc": "chat status while waiting for the answer"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 138,
+   "col_beg": 18,
+   "line_end": 138,
+   "col_end": 78,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat status while waiting for the answer",
+     "text": "Thinking…"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "VbHCi2w9enEQzyt0dsGPOQ==": {
+     "text": "The conversation has ended.",
+     "desc": "chat ended notice"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 275,
+   "col_beg": 24,
+   "line_end": 275,
+   "col_end": 79,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat ended notice",
+     "text": "The conversation has ended."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "NDgdIlnSQcLAUx5HLN6/0g==": {
+     "text": "How was this conversation?",
+     "desc": "chat feedback question after the conversation ended"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 367,
+   "col_beg": 34,
+   "line_end": 370,
+   "col_end": 35,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat feedback question after the conversation ended",
+     "text": "How was this conversation?"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "iSqMmk8sOqV6YKgT6vEhLQ==": {
+     "text": "Thank you for your feedback.",
+     "desc": "chat feedback thanks"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 371,
+   "col_beg": 34,
+   "line_end": 374,
+   "col_end": 35,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat feedback thanks",
+     "text": "Thank you for your feedback."
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "V0Sl0lLW3jhCXJJxLLQwkg==": {
+     "text": "Start a new conversation",
+     "desc": "chat restart button"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 411,
+   "col_beg": 29,
+   "line_end": 414,
+   "col_end": 29,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat restart button",
+     "text": "Start a new conversation"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "TJhzxwJnVg6SxCA6zsjBhw==": {
+     "text": "Write a message…",
+     "desc": "chat input placeholder"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 423,
+   "col_beg": 37,
+   "line_end": 426,
+   "col_end": 25,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat input placeholder",
+     "text": "Write a message…"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "O+Ejw/eAAX2sj5yYL1Vo5w==": {
+     "text": "End chat",
+     "desc": "button that ends the conversation"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 436,
+   "col_beg": 33,
+   "line_end": 439,
+   "col_end": 33,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "button that ends the conversation",
+     "text": "End chat"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "PH/bPm/8eGfYrPwyUDdc6A==": {
+     "text": "Searching the knowledge base…",
+     "desc": "chat status"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 453,
+   "col_beg": 19,
+   "line_end": 453,
+   "col_end": 70,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat status",
+     "text": "Searching the knowledge base…"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "FPls3TMTStW/JFJQoTwLQw==": {
+     "text": "Searching the catalog…",
+     "desc": "chat status"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 456,
+   "col_beg": 19,
+   "line_end": 456,
+   "col_end": 63,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat status",
+     "text": "Searching the catalog…"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "U0wVwGY7Y2Pq6bh6TpR7EA==": {
+     "text": "Contacting a colleague…",
+     "desc": "chat status"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 458,
+   "col_beg": 19,
+   "line_end": 458,
+   "col_end": 64,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat status",
+     "text": "Contacting a colleague…"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "zTq4kup706kVxbAQwtlovw==": {
+     "text": "Thinking…",
+     "desc": "chat status while waiting for the answer"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 460,
+   "col_beg": 19,
+   "line_end": 460,
+   "col_end": 79,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat status while waiting for the answer",
+     "text": "Thinking…"
     },
     "m": []
    }

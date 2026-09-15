@@ -7,7 +7,9 @@ import { Swiftyper } from 'swiftyper-node'
 import SwiftyperService from '@/services/SwiftyperService'
 import { changeLocale } from '@/utils/fbt.ts'
 
-const client = new Swiftyper()
+const client = new Swiftyper(undefined, {
+    timeout: 180 * 1000,
+})
 
 const swiftyperServiceInstance = new SwiftyperService(client)
 

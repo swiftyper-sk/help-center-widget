@@ -16,6 +16,7 @@ import { useConfigurationContext } from '@/contexts/ConfigurationContext'
 import { initFbt } from '@/utils/fbt.ts'
 import Loader from '@/components/Loader.tsx'
 import Contact from '@/pages/Contact.tsx'
+import Chat from '@/pages/Chat.tsx'
 
 initFbt()
 
@@ -67,6 +68,7 @@ export default function App() {
                         <>
                             <Routes>
                                 <Route path="/contact" element={<Contact />} />
+                                <Route path="/chat" element={<Chat />} />
                                 <Route
                                     path="/categories"
                                     element={<Categories />}

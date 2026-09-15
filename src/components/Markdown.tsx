@@ -1,6 +1,7 @@
 import classNames from 'classnames'
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown, { Components } from 'react-markdown'
 import React from 'react'
+import remarkGfm from 'remark-gfm'
 import { renderToStaticMarkup } from 'react-dom/server'
 
 const alertStyles = {
@@ -34,11 +35,14 @@ const Alert = ({ type = 'DEFAULT', children }: AlertProps) => {
 
 type MarkdownProps = {
     children: string
+    components?: Components
 }
 
-const Markdown = ({ children }: MarkdownProps) => (
+const Markdown = ({ children, components }: MarkdownProps) => (
     <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
         components={{
+            ...components,
             blockquote({ children }) {
                 const nodes = React.Children.toArray(children)
                 const element = nodes.find((node) => React.isValidElement(node))
