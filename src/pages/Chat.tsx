@@ -403,7 +403,7 @@ const Chat: React.FC = () => {
                     <button
                         type="button"
                         onClick={startNew}
-                        className="w-full rounded-lg p-3 text-sm font-semibold text-white transition hover:opacity-90"
+                        className="w-full rounded-lg p-3 text-sm font-semibold bg-blue-500 text-white hover:bg-blue-600 transition hover:opacity-90"
                         style={{ backgroundColor: configuration.color }}
                     >
                         <span className="inline-flex items-center gap-2">

@@ -138,7 +138,8 @@ const Contact: React.FC = () => {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full rounded-lg p-3 text-sm font-semibold transition bg-blue-500 text-white hover:bg-blue-600 disabled:opacity-50"
+                        className="w-full rounded-lg p-3 text-sm font-semibold bg-blue-500 text-white hover:bg-blue-600 transition hover:opacity-90 disabled:opacity-50"
+                        style={{ backgroundColor: configuration.color }}
                     >
                         {loading
                             ? fbt('Sending...', 'button loading label')
