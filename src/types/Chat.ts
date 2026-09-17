@@ -23,12 +23,14 @@ export type ChatProduct = {
     name: string
     description: string
     price: number
+    currency: string
     originalPrice?: number | null
     brand: string
     category: string
     imageUrl: string | null
     productUrl?: string | null
     inStock: boolean
+    availability: 'in_stock' | 'presale' | 'out_of_stock'
     isOnSale: boolean
     salePercentage?: number | null
     itemType?: 'product' | 'service'

@@ -1,6 +1,5 @@
 import React from 'react'
 import { ExternalLink, Package } from 'lucide-react'
-import { useConfigurationContext } from '@/contexts/ConfigurationContext.ts'
 import { ChatProduct } from '@/types/Chat.ts'
 import fbt from 'fbt'
 
@@ -38,8 +37,6 @@ const ProductCards: React.FC<Props> = ({
     currency,
     locale,
 }) => {
-    const { configuration } = useConfigurationContext()!
-
     return (
         <div className="flex gap-2 overflow-x-auto pb-1 -mx-1 px-1 snap-x">
             {products.map((product) => {
@@ -50,7 +47,7 @@ const ProductCards: React.FC<Props> = ({
                                 <img
                                     src={product.imageUrl}
                                     alt={product.name}
-                                    className="h-full w-full object-cover"
+                                    className="h-full w-full object-contain"
                                     loading="lazy"
                                 />
                             ) : (
@@ -70,10 +67,7 @@ const ProductCards: React.FC<Props> = ({
                                 </div>
                             )}
                             <div className="flex items-baseline gap-1.5 flex-wrap">
-                                <span
-                                    className="text-sm font-bold"
-                                    style={{ color: configuration.color }}
-                                >
+                                <span className="text-sm font-bold  text-black dark:text-white">
                                     {formatPrice(
                                         product.price,
                                         product.currency || currency,
@@ -95,14 +89,21 @@ const ProductCards: React.FC<Props> = ({
                             {product.itemType !== 'service' && (
                                 <div
                                     className={
-                                        product.inStock
+                                        product.availability === 'in_stock'
                                             ? 'text-[11px] text-green-600 dark:text-green-400'
+                                            : product.availability === 'presale'
+                                            ? 'text-[11px] text-yellow-600 dark:text-yellow-400'
                                             : 'text-[11px] text-red-500'
                                     }
                                 >
-                                    {product.inStock
+                                    {product.availability === 'in_stock'
                                         ? fbt(
                                               'In stock',
+                                              'product availability'
+                                          )
+                                        : product.availability === 'presale'
+                                        ? fbt(
+                                              'Pre-sale',
                                               'product availability'
                                           )
                                         : fbt(
@@ -112,10 +113,7 @@ const ProductCards: React.FC<Props> = ({
                                 </div>
                             )}
                             {product.productUrl && (
-                                <div
-                                    className="inline-flex items-center gap-1 text-[11px] font-semibold"
-                                    style={{ color: configuration.color }}
-                                >
+                                <div className="inline-flex items-center gap-1 text-[11px] font-semibold text-black dark:text-white">
                                     {fbt('View', 'open the product page')}
                                     <ExternalLink className="h-3 w-3" />
                                 </div>
@@ -131,6 +129,7 @@ const ProductCards: React.FC<Props> = ({
                         key={product.id}
                         id={productAnchorId(messageId, product.id)}
                         href={product.productUrl}
+                        title={product.name}
                         target="_blank"
                         rel="noreferrer"
                         className={className}
@@ -141,6 +140,7 @@ const ProductCards: React.FC<Props> = ({
                     <div
                         key={product.id}
                         id={productAnchorId(messageId, product.id)}
+                        title={product.name}
                         className={className}
                     >
                         {body}

@@ -10,6 +10,7 @@ export type Configuration = {
     assistant_name: string
     suggested_questions: Record<string, Array<string>>
     assistant_enabled: boolean
+    contact_enabled: boolean
     faq_enabled: boolean
     locales: Record<string, string>
 }

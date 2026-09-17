@@ -4,6 +4,7 @@ import {
     Route,
     useNavigate,
     createSearchParams,
+    useLocation,
 } from 'react-router-dom'
 import ErrorBoundary from '@/components/ErrorBoundary'
 import Header from '@/components/Header'
@@ -32,6 +33,17 @@ export default function App() {
     const { configuration, loading } = useConfigurationContext()!
 
     const navigate = useNavigate()
+    const location = useLocation()
+
+    useEffect(() => {
+        if (location.search) {
+            return
+        }
+        window.parent.postMessage(
+            { type: 'help-center-route', route: location.pathname },
+            '*'
+        )
+    }, [location.pathname, location.search])
 
     const handlePostMessageFromIframe = useCallback(
         (event: MessageEvent) => {
@@ -81,7 +93,18 @@ export default function App() {
                                     path="/article/:id"
                                     element={<Article />}
                                 />
-                                <Route path="*" element={<Home />} />
+                                <Route
+                                    path="*"
+                                    element={
+                                        configuration.faq_enabled ? (
+                                            <Home />
+                                        ) : configuration.assistant_enabled ? (
+                                            <Chat />
+                                        ) : (
+                                            <Contact />
+                                        )
+                                    }
+                                />
                             </Routes>
                         </>
                     )}

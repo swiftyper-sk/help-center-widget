@@ -154,6 +154,10 @@ export class HelpCenterWidget {
                 throw new Error(`Invalid route: ${route}`)
         }
 
+        this.postNavigate(pathname, params)
+    }
+
+    private postNavigate(pathname: string, params: Record<string, string>) {
         const handleMessage = () => {
             this.iframe!.contentWindow!.postMessage(
                 {
@@ -200,6 +204,7 @@ export class HelpCenterWidget {
         }
 
         this.config.isOpen = nextState
+        this.saveToStorage('open', nextState)
     }
 
     private injectWidgetStyles(cssText: string) {
@@ -364,6 +369,8 @@ export class HelpCenterWidget {
                 this.toggle()
             } else if (data === 'help-center-ready') {
                 this.iframe!.dispatchEvent(new CustomEvent('widget:load'))
+            } else if (data?.type === 'help-center-route') {
+                this.saveToStorage('route', data.route)
             }
         })
         document.addEventListener('click', ({ target }) => {
@@ -395,14 +402,23 @@ export class HelpCenterWidget {
         }
     }
 
+    private restoreState(): void {
+        const { open, route } = this.storage
+        if (open ?? this.config.isOpen) {
+            this.toggle(true)
+            if (!route) {
+                return
+            }
+            this.postNavigate(route, {})
+        }
+    }
+
     private initialize(): void {
         this.loadStorage()
         this.injectWidgetStyles(widgetStyle)
         this.createButton()
         this.bindEvents()
-        if (this.config.isOpen) {
-            this.toggle(true)
-        }
+        this.restoreState()
         window.dispatchEvent(new Event('helpCenterWidgetReady'))
     }
 }

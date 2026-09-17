@@ -176,9 +176,9 @@
     }
    },
    "filepath": "src\\components\\chat\\ProductCards.tsx",
-   "line_beg": 104,
+   "line_beg": 100,
    "col_beg": 42,
-   "line_end": 107,
+   "line_end": 103,
    "col_end": 43,
    "project": "",
    "jsfbt": {
@@ -191,15 +191,36 @@
   },
   {
    "hashToLeaf": {
+    "BYSpC302Vx/+t4BS9bStMw==": {
+     "text": "Pre-sale",
+     "desc": "product availability"
+    }
+   },
+   "filepath": "src\\components\\chat\\ProductCards.tsx",
+   "line_beg": 105,
+   "col_beg": 42,
+   "line_end": 108,
+   "col_end": 43,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "product availability",
+     "text": "Pre-sale"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
     "AT5Y5nqlWVidbS0gCFARmw==": {
      "text": "Out of stock",
      "desc": "product availability"
     }
    },
    "filepath": "src\\components\\chat\\ProductCards.tsx",
-   "line_beg": 108,
+   "line_beg": 109,
    "col_beg": 42,
-   "line_end": 111,
+   "line_end": 112,
    "col_end": 43,
    "project": "",
    "jsfbt": {
@@ -218,9 +239,9 @@
     }
    },
    "filepath": "src\\components\\chat\\ProductCards.tsx",
-   "line_beg": 119,
+   "line_beg": 117,
    "col_beg": 37,
-   "line_end": 119,
+   "line_end": 117,
    "col_end": 73,
    "project": "",
    "jsfbt": {
@@ -759,9 +780,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 109,
+   "line_beg": 123,
    "col_beg": 16,
-   "line_end": 112,
+   "line_end": 126,
    "col_end": 17,
    "project": "",
    "jsfbt": {
@@ -780,9 +801,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 117,
+   "line_beg": 131,
    "col_beg": 20,
-   "line_end": 117,
+   "line_end": 131,
    "col_end": 70,
    "project": "",
    "jsfbt": {
@@ -801,9 +822,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 138,
+   "line_beg": 153,
    "col_beg": 18,
-   "line_end": 138,
+   "line_end": 153,
    "col_end": 78,
    "project": "",
    "jsfbt": {
@@ -822,9 +843,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 275,
+   "line_beg": 290,
    "col_beg": 24,
-   "line_end": 275,
+   "line_end": 290,
    "col_end": 79,
    "project": "",
    "jsfbt": {
@@ -843,9 +864,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 367,
+   "line_beg": 382,
    "col_beg": 34,
-   "line_end": 370,
+   "line_end": 385,
    "col_end": 35,
    "project": "",
    "jsfbt": {
@@ -864,9 +885,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 371,
+   "line_beg": 386,
    "col_beg": 34,
-   "line_end": 374,
+   "line_end": 389,
    "col_end": 35,
    "project": "",
    "jsfbt": {
@@ -885,9 +906,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 411,
+   "line_beg": 426,
    "col_beg": 29,
-   "line_end": 414,
+   "line_end": 429,
    "col_end": 29,
    "project": "",
    "jsfbt": {
@@ -906,9 +927,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 423,
+   "line_beg": 438,
    "col_beg": 37,
-   "line_end": 426,
+   "line_end": 441,
    "col_end": 25,
    "project": "",
    "jsfbt": {
@@ -927,9 +948,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 436,
+   "line_beg": 451,
    "col_beg": 33,
-   "line_end": 439,
+   "line_end": 454,
    "col_end": 33,
    "project": "",
    "jsfbt": {
@@ -948,9 +969,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 453,
+   "line_beg": 468,
    "col_beg": 19,
-   "line_end": 453,
+   "line_end": 468,
    "col_end": 70,
    "project": "",
    "jsfbt": {
@@ -969,9 +990,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 456,
+   "line_beg": 471,
    "col_beg": 19,
-   "line_end": 456,
+   "line_end": 471,
    "col_end": 63,
    "project": "",
    "jsfbt": {
@@ -990,9 +1011,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 458,
+   "line_beg": 473,
    "col_beg": 19,
-   "line_end": 458,
+   "line_end": 473,
    "col_end": 64,
    "project": "",
    "jsfbt": {
@@ -1011,9 +1032,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 460,
+   "line_beg": 475,
    "col_beg": 19,
-   "line_end": 460,
+   "line_end": 475,
    "col_end": 79,
    "project": "",
    "jsfbt": {
@@ -1203,9 +1224,9 @@
     }
    },
    "filepath": "src\\pages\\Contact.tsx",
-   "line_beg": 144,
+   "line_beg": 145,
    "col_beg": 30,
-   "line_end": 144,
+   "line_end": 145,
    "col_end": 71,
    "project": "",
    "jsfbt": {
@@ -1224,9 +1245,9 @@
     }
    },
    "filepath": "src\\pages\\Contact.tsx",
-   "line_beg": 145,
+   "line_beg": 146,
    "col_beg": 30,
-   "line_end": 145,
+   "line_end": 146,
    "col_end": 65,
    "project": "",
    "jsfbt": {

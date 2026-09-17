@@ -18,7 +18,7 @@ const Header: React.FC = () => {
     }
 
     return (
-        <div className="flex items-center justify-between p-4 text-gray-900 dark:text-gray-200 border-b border-gray-500/5 dark:border-gray-300/[0.06]">
+        <div className="sticky top-0 flex items-center justify-between p-4 text-gray-900 dark:text-gray-200 bg-white dark:bg-zinc-900 border-b border-gray-500/5 dark:border-gray-300/[0.06] z-10">
             <div className="flex items-center gap-2">
                 {location.state?.canGoBack && (
                     <button

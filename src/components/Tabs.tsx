@@ -32,9 +32,13 @@ const Tabs: React.FC<TabsProps> = ({ tab }) => {
             label: fbt('Contact Us', 'tab label'),
             href: '/contact',
             icon: AtSign,
-            enabled: true,
+            enabled: configuration.contact_enabled,
         },
     ].filter(({ enabled }) => enabled)
+
+    if (TABS.length < 2) {
+        return null
+    }
 
     return (
         <div className="relative z-0 rounded-lg shadow-lg shadow-gray-900/5 flex border border-gray-300 dark:border-zinc-700 divide-x divide-gray-300 dark:divide-zinc-700">

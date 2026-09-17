@@ -52,6 +52,7 @@ const Chat: React.FC = () => {
     const [error, setError] = useState<string | null>(null)
     const bottomRef = useRef<HTMLDivElement>(null)
     const abortRef = useRef<AbortController | null>(null)
+    const stickToBottom = useRef(true)
 
     useEffect(() => {
         let stored: StoredChat | null
@@ -85,8 +86,21 @@ const Chat: React.FC = () => {
     }, [storageKey, sessionId, messages, ended, feedback])
 
     useEffect(() => {
-        bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
-    }, [messages, status])
+        const onScroll = () => {
+            const el = document.scrollingElement!
+            stickToBottom.current =
+                el.scrollHeight - el.scrollTop - el.clientHeight < 40
+        }
+        window.addEventListener('scroll', onScroll)
+        return () => window.removeEventListener('scroll', onScroll)
+    }, [])
+
+    useEffect(() => {
+        if (stickToBottom.current)
+            bottomRef.current?.scrollIntoView({
+                behavior: sending ? 'auto' : 'smooth',
+            })
+    }, [messages, status, sending])
 
     const appendReply = useCallback((reply: ChatMessage) => {
         setMessages((prev) => [
@@ -133,6 +147,7 @@ const Chat: React.FC = () => {
             timestamp: new Date().toISOString(),
         }
         const draftId = `draft-${generateUUID()}`
+        stickToBottom.current = true
         setMessages((prev) => [...prev, userMessage])
         setSending(true)
         setStatus(fbt('Thinking…', 'chat status while waiting for the answer'))
