@@ -5,7 +5,7 @@ import { AsyncCacheAdapter } from './AsyncCacheAdapter'
 import { Category } from '@/types/Category.ts'
 import { Article } from '@/types/Article.ts'
 import { Configuration } from '@/types/Configuration.ts'
-import { ChatMessage, ChatStreamEvent } from '@/types/Chat.ts'
+import { ChatMessage, ChatStreamEvent, ChatUpdates } from '@/types/Chat.ts'
 
 export default class SwiftyperService {
     private readonly client: Swiftyper
@@ -96,6 +96,14 @@ export default class SwiftyperService {
             {
                 rating,
             }
+        )
+    }
+
+    chatUpdates(sessionId: string, after: string | null) {
+        return this.call<ChatUpdates>(
+            ['helpCenterChat', 'updates'],
+            sessionId,
+            after ? { after } : {}
         )
     }
 

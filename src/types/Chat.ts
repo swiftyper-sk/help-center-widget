@@ -42,7 +42,15 @@ export type ChatMessage = {
     id: string
     content: string
     isBot: boolean
-    type: 'text' | 'product' | 'handoff' | 'ended'
+    type:
+        | 'text'
+        | 'product'
+        | 'handoff'
+        | 'ended'
+        | 'agent'
+        | 'agent_joined'
+        | 'agent_left'
+        | 'waiting'
     ended?: boolean
     timestamp: string
     products?: ChatProduct[]
@@ -50,7 +58,18 @@ export type ChatMessage = {
         sources?: ChatSource[]
         handoff?: ChatHandoff
         contact?: ChatContact
+        agent?: { name: string | null }
+        assistant?: string
     }
+}
+
+export type ChatUpdates = {
+    takenOver: boolean
+    agentName: string | null
+    ended: boolean
+    messages: ChatMessage[]
+    cursor: string
+    pollSeconds: number
 }
 
 export type ChatStreamEvent =

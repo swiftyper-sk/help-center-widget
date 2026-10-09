@@ -12,6 +12,7 @@ import { generateUUID } from '@/utils/generateUUID.ts'
 
 const STORAGE_PREFIX = 'swiftyper-help-center-chat'
 const MAX_STORED_MESSAGES = 60
+const POLL_FALLBACK_SECONDS = 15
 
 type StoredChat = {
     sessionId: string
@@ -50,8 +51,10 @@ const Chat: React.FC = () => {
     const [sending, setSending] = useState(false)
     const [status, setStatus] = useState<string | null>(null)
     const [error, setError] = useState<string | null>(null)
+    const [agentName, setAgentName] = useState<string | null>(null)
     const bottomRef = useRef<HTMLDivElement>(null)
     const abortRef = useRef<AbortController | null>(null)
+    const cursorRef = useRef<string | null>(null)
     const stickToBottom = useRef(true)
 
     useEffect(() => {
@@ -84,6 +87,52 @@ const Chat: React.FC = () => {
             /* empty */
         }
     }, [storageKey, sessionId, messages, ended, feedback])
+
+    const started = messages.some((m) => !m.isBot)
+    useEffect(() => {
+        if (!sessionId || ended || !started) return
+        let cancelled = false
+        let timer: ReturnType<typeof setTimeout> | undefined
+
+        const poll = async () => {
+            let delay = POLL_FALLBACK_SECONDS
+            try {
+                const updates = await swiftyperService.chatUpdates(
+                    sessionId,
+                    cursorRef.current
+                )
+                if (cancelled) return
+                if (typeof updates?.takenOver !== 'boolean') {
+                    throw new Error(
+                        (updates as unknown as { message?: string })?.message ||
+                            'Unexpected chat updates response'
+                    )
+                }
+                cursorRef.current = updates.cursor
+                delay = updates.pollSeconds || POLL_FALLBACK_SECONDS
+                setAgentName(updates.takenOver ? updates.agentName || '' : null)
+                if (updates.messages?.length) {
+                    setMessages((prev) => {
+                        const known = new Set(prev.map((m) => m.id))
+                        const fresh = updates.messages.filter(
+                            (m) => !known.has(m.id)
+                        )
+                        return fresh.length ? [...prev, ...fresh] : prev
+                    })
+                }
+                if (updates.ended) setEnded(true)
+            } catch (err) {
+                console.warn('Swiftyper help center: chat updates failed', err)
+            }
+            if (!cancelled) timer = setTimeout(poll, delay * 1000)
+        }
+
+        poll()
+        return () => {
+            cancelled = true
+            clearTimeout(timer)
+        }
+    }, [swiftyperService, sessionId, ended, started])
 
     useEffect(() => {
         const onScroll = () => {
@@ -150,7 +199,11 @@ const Chat: React.FC = () => {
         stickToBottom.current = true
         setMessages((prev) => [...prev, userMessage])
         setSending(true)
-        setStatus(fbt('Thinking…', 'chat status while waiting for the answer'))
+        setStatus(
+            agentName === null
+                ? fbt('Thinking…', 'chat status while waiting for the answer')
+                : null
+        )
 
         let streamed = ''
         let draftShown = false
@@ -204,7 +257,13 @@ const Chat: React.FC = () => {
                     )
                 } else if (event.type === 'done') {
                     setMessages((prev) => prev.filter((m) => m.id !== draftId))
-                    appendReply(event.response)
+                    if (event.response.type === 'waiting') {
+                        setAgentName(
+                            event.response.extraData?.agent?.name || ''
+                        )
+                    } else {
+                        appendReply(event.response)
+                    }
                 } else if (event.type === 'error') {
                     throw new Error(event.message)
                 }
@@ -306,6 +365,8 @@ const Chat: React.FC = () => {
         setEnded(false)
         setFeedback(null)
         setError(null)
+        setAgentName(null)
+        cursorRef.current = null
     }
 
     const hasStarted = messages.length > 0
@@ -314,6 +375,28 @@ const Chat: React.FC = () => {
     return (
         <div className="flex flex-1 flex-col max-w-5xl mx-auto w-full min-h-0 space-y-4">
             <Tabs tab="chat" />
+
+            {agentName !== null && !ended && (
+                <div
+                    className="sticky z-[9] top-[77px] flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-white shadow-sm"
+                    style={{
+                        backgroundColor: configuration.color,
+                    }}
+                    role="status"
+                >
+                    <span className="inline-block h-2 w-2 rounded-full bg-white animate-pulse" />
+                    {agentName
+                        ? fbt(
+                              'You are chatting with ' +
+                                  fbt.param('name', agentName),
+                              'chat banner while a person from the store answers instead of the assistant'
+                          )
+                        : fbt(
+                              'You are chatting with our team',
+                              'chat banner while a person from the store without a name answers instead of the assistant'
+                          )}
+                </div>
+            )}
 
             <div className="flex-1 min-h-0 overflow-y-auto space-y-3 pr-1">
                 {configuration.welcome_message && (

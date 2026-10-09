@@ -1,256 +1,4 @@
 {
-  "cs_CZ": {
-    "8qvVu": [
-      "Domů",
-      "/y+bhzIQnNfcZP4B55Yh/Q=="
-    ],
-    "1LZHIc": [
-      "Hledat články...",
-      "+CS7leN187kD61Izvk9Syw=="
-    ],
-    "3fUlAq": [
-      "Poslední aktualizace: {date}",
-      "q0JdTyWcQGluLChecoOvlQ=="
-    ],
-    "16ono5": {
-      "4": [
-        "{number} článek",
-        "2Sxr7qNdHS+bc6NYoY4dpg=="
-      ],
-      "20": [
-        "{number} články",
-        "2Sxr7qNdHS+bc6NYoY4dpg=="
-      ],
-      "*": [
-        "{number} článků",
-        "2Sxr7qNdHS+bc6NYoY4dpg=="
-      ],
-      "_1": [
-        "1 článek",
-        "ApsSZrJX6rxd10nYf29b5A=="
-      ]
-    },
-    "1kYgvd": [
-      "Populární články",
-      "H8fc5TPjl+47npt1TX3a1A=="
-    ],
-    "4yNg4g": [
-      "Zobrazit všechny články",
-      "pdZJf7G4ny3W1Qpm82e4Hw=="
-    ],
-    "4g6t9h": [
-      "Nebyly nalezeny žádné výsledky",
-      "Ol4rcuOfSa3c1AXuyBphoQ=="
-    ],
-    "cvCAq": [
-      "Nenašli jsme žádné články, které by odpovídaly vašemu vyhledávání.",
-      "UNZixprUib6h1fF8YkWyUA=="
-    ],
-    "1xn2Ki": [
-      "Centrum nápovědy",
-      "J5QghgxeWzZDHSxZmFfjow=="
-    ],
-    "djyME": [
-      "Jejda! Něco se pokazilo.",
-      "iasSLJFz4Hp4+C8a4qwY1Q=="
-    ],
-    "2UvnMw": [
-      "Vypadá to, že se něco pokazilo.",
-      "g0swyD4fJuHSSIyjvfiXrA=="
-    ],
-    "184Zys": [
-      "Zkusit znovu",
-      "pwAxcytATAMxhU3xfvSigw=="
-    ],
-    "2ZFdDQ": [
-      "Tato pomoc není k dispozici ve vašem jazyce. Vyberte některý z jazyků:",
-      "QAriq8yZb/53wQPIPRIUtg=="
-    ],
-    "2nZLBM": [
-      "Vyberte jazyk",
-      "OiyGcfuQsgD1Bfxna34GHA=="
-    ],
-    "bPift": [
-      "Najděte odpovědi na nejčastěji kladené otázky níže. Vyhledejte témata, která vás zajímají, nebo je prohledejte podle kategorií.",
-      "QTkeCOHu5nVhdL0QwZm0Gg=="
-    ],
-    "2SQQsh": [
-      "Zpět",
-      "6prvSt7hCcb97c9dKoBhWg=="
-    ],
-    "2STjQL": [
-      "Zavřít",
-      "oY2Y00+6LLJAxRNCbMkE8A=="
-    ],
-    "4sPHZs": [
-      "Články",
-      "39o94cm7YEO6mA86PnUJhw=="
-    ],
-    "38XLjs": [
-      "Kontaktujte nás",
-      "WA7AMy6nkt3uWIXMhoxZiQ=="
-    ],
-    "3fvZk": [
-      "Kontaktní formulář",
-      "iHH7Aj/k9He9/FQW4uV6rQ=="
-    ],
-    "3Usmey": [
-      "Vaši zprávu jsme obdrželi!",
-      "XAFGcoC3ZHzIqCIxqXH0bA=="
-    ],
-    "3MARG8": [
-      "Děkujeme, že jste nás kontaktovali. Budeme vás kontaktovat v nejkratším možném čase.",
-      "PeNhbdQJNvExeqYtt5oXjQ=="
-    ],
-    "4EqkHk": [
-      "Celé jméno",
-      "LZQ9mo0k9oc8tlEy2wK5sg=="
-    ],
-    "49RlGe": [
-      "E-mail",
-      "OKb6zB54+Ul2UACwhdDhHA=="
-    ],
-    "1NKMd4": [
-      "Jak vám můžeme pomoci?",
-      "JeV6VLFqxhR6493BAMWZlQ=="
-    ],
-    "4b4r8r": [
-      "Zpracování osobních údajů bude provedeno výhradně za účelem vyřízení vašeho požadavku v souladu se {=m2}.",
-      "HhUkchriDsrqfQ8l2QjFPg=="
-    ],
-    "1m1vid": [
-      "zásadami ochrany osobních údajů",
-      "byDgrCqemItqlut+2LGuNw=="
-    ],
-    "2OHPYe": [
-      "Odeslat zprávu",
-      "s1+K142L1aQjEl3F7PcQWA=="
-    ],
-    "FVsyr": [
-      "Odesílá se...",
-      "5rekuIpcqU3WKAz/5fqLRQ=="
-    ],
-    "2LhBAL": [
-      "Odeslat",
-      "91Obct7KmRX/Wp5M/GpzOw=="
-    ],
-    "2VmFbH": [
-      "Zdroje",
-      "JiVQZMh9b4/mxp6d90QoyA=="
-    ],
-    "3MyYC4": [
-      "vas@email.com",
-      "SP1w8L93SP7DUaklwxDZxQ=="
-    ],
-    "4bWX8D": [
-      "Odeslat",
-      "uF7qhB5BHdni+qnppWzRFA=="
-    ],
-    "1F68dV": [
-      "Zadejte platnou e-mailovou adresu.",
-      "M0gwanxE2A/gStwCLa02MQ=="
-    ],
-    "3VzDHr": [
-      "Pokračovat bez zadání e-mailu",
-      "63p2Vu+n1oLlxZ71Lqdinw=="
-    ],
-    "2Z5fEL": [
-      "Zavřít",
-      "xlpAZAp74dNPZ8jGAVtdvg=="
-    ],
-    "4uD8Ty": [
-      "Skladem",
-      "NLygQWkp7QaPk1JCFJ5vXA=="
-    ],
-    "3iQzrl": [
-      "Vyprodáno",
-      "AT5Y5nqlWVidbS0gCFARmw=="
-    ],
-    "2XNdWe": [
-      "Zobrazit",
-      "zxaijUOULs7gElBbohGRAA=="
-    ],
-    "4mT2b0": [
-      "Chat",
-      "VNyzLZi67Q8V/MaVQ8PnYw=="
-    ],
-    "i6i09": [
-      "Příliš mnoho zpráv, prosím počkejte chvíli.",
-      "l4Xxevg5U6qKzKEuWBEkBA=="
-    ],
-    "3CnbV3": [
-      "Něco se pokazilo.",
-      "ZjhYeBIlgVuWpCcPL8hA8A=="
-    ],
-    "fMbhs": [
-      "Přemýšlím…",
-      "zTq4kup706kVxbAQwtlovw=="
-    ],
-    "1Sdoz8": [
-      "Konverzace byla ukončena.",
-      "VbHCi2w9enEQzyt0dsGPOQ=="
-    ],
-    "MxWEX": [
-      "Chatový asistent není nakonfigurován pro toto centrum nápovědy.",
-      "GDwiU9Ar1HZnK5Kp2MVsgw=="
-    ],
-    "47Z16T": [
-      "Zahájit novou konverzaci",
-      "V0Sl0lLW3jhCXJJxLLQwkg=="
-    ],
-    "16mX90": [
-      "Napište zprávu…",
-      "TJhzxwJnVg6SxCA6zsjBhw=="
-    ],
-    "2vObAS": [
-      "Ukončit chat",
-      "O+Ejw/eAAX2sj5yYL1Vo5w=="
-    ],
-    "26b4ED": [
-      "Vyhledávám v databázi znalostí…",
-      "PH/bPm/8eGfYrPwyUDdc6A=="
-    ],
-    "2mJY0m": [
-      "Vyhledávám v katalogu…",
-      "FPls3TMTStW/JFJQoTwLQw=="
-    ],
-    "2aGbCm": [
-      "Kontaktuji kolegu…",
-      "U0wVwGY7Y2Pq6bh6TpR7EA=="
-    ],
-    "1EX0Ji": [
-      "Špatný",
-      "5/SznQPUCQVg1Y9rqdGzyA=="
-    ],
-    "qFazK": [
-      "Slabý",
-      "jvbVXkUWYdtIyKsSp7kZPg=="
-    ],
-    "2a3m6I": [
-      "V pořádku",
-      "dpRl2pfrFB74Nw2w2mlmow=="
-    ],
-    "37MPZR": [
-      "Dobrý",
-      "tdod8zkwwMp6xCwMhkFrfw=="
-    ],
-    "1lc5zG": [
-      "Skvělý",
-      "FF37k70vf3HgkgLkHx6b0w=="
-    ],
-    "4zeU4i": [
-      "Jaký byl tento rozhovor?",
-      "NDgdIlnSQcLAUx5HLN6/0g=="
-    ],
-    "3nOdUN": [
-      "Děkujeme za zpětnou vazbu.",
-      "iSqMmk8sOqV6YKgT6vEhLQ=="
-    ],
-    "1Zd6BA": [
-      "Předprodej",
-      "BYSpC302Vx/+t4BS9bStMw=="
-    ]
-  },
   "sk_SK": {
     "8qvVu": [
       "Domov",
@@ -501,6 +249,562 @@
     "1Zd6BA": [
       "Predpredaj",
       "BYSpC302Vx/+t4BS9bStMw=="
+    ],
+    "z9en9": [
+      "{name} sa pripojil ku konverzácii",
+      "kjmiAt2LIdsd4t0xhs/7pA=="
+    ],
+    "3UHrGa": [
+      "{name} opustil konverzáciu, asistent odpovie znova",
+      "i3rcK0Cu19WWz09YhTTE3A=="
+    ],
+    "2uyQpP": [
+      "AI asistent",
+      "z249hN/mRuac2sdKV2QU1g=="
+    ],
+    "3uCp2p": [
+      "Chatujete s používateľom {name}",
+      "iZWE2F9j08IQt4ycGcZ2yA=="
+    ],
+    "150sRl": [
+      "Chatujete s naším tímom",
+      "EjbwWUSh2BwveWxEGzjb2Q=="
+    ]
+  },
+  "uk_UA": {
+    "8qvVu": [
+      "Головна",
+      "/y+bhzIQnNfcZP4B55Yh/Q=="
+    ],
+    "1LZHIc": [
+      "Пошук статей...",
+      "+CS7leN187kD61Izvk9Syw=="
+    ],
+    "3fUlAq": [
+      "Останнє оновлення {date}",
+      "q0JdTyWcQGluLChecoOvlQ=="
+    ],
+    "16ono5": {
+      "4": [
+        "{number} стаття",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "*": [
+        "{number} статей",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "_1": [
+        "1 стаття",
+        "ApsSZrJX6rxd10nYf29b5A=="
+      ]
+    },
+    "1kYgvd": [
+      "Популярні статті",
+      "H8fc5TPjl+47npt1TX3a1A=="
+    ],
+    "4yNg4g": [
+      "Переглянути всі статті",
+      "pdZJf7G4ny3W1Qpm82e4Hw=="
+    ],
+    "4g6t9h": [
+      "Результати не знайдено",
+      "Ol4rcuOfSa3c1AXuyBphoQ=="
+    ],
+    "cvCAq": [
+      "не знайшли жодної статті, що відповідає вашому запиту.",
+      "UNZixprUib6h1fF8YkWyUA=="
+    ],
+    "1xn2Ki": [
+      "Центр допомоги",
+      "J5QghgxeWzZDHSxZmFfjow=="
+    ],
+    "djyME": [
+      "Ой! Щось пішло не так.",
+      "iasSLJFz4Hp4+C8a4qwY1Q=="
+    ],
+    "2UvnMw": [
+      "Схоже, щось пішло не так.",
+      "g0swyD4fJuHSSIyjvfiXrA=="
+    ],
+    "184Zys": [
+      "Спробувати ще раз",
+      "pwAxcytATAMxhU3xfvSigw=="
+    ],
+    "2ZFdDQ": [
+      "Цей довідковий матеріал недоступний вашою мовою. Будь ласка, виберіть одну з підтримуваних мов:",
+      "QAriq8yZb/53wQPIPRIUtg=="
+    ],
+    "2nZLBM": [
+      "Виберіть мову",
+      "OiyGcfuQsgD1Bfxna34GHA=="
+    ],
+    "bPift": [
+      "Знайдіть відповіді на найпоширеніші запитання нижче. Знайдіть теми, які вас цікавлять, або відсортуйте їх за категоріями.",
+      "QTkeCOHu5nVhdL0QwZm0Gg=="
+    ],
+    "2SQQsh": [
+      "Назад",
+      "6prvSt7hCcb97c9dKoBhWg=="
+    ],
+    "2STjQL": [
+      "Закрити",
+      "oY2Y00+6LLJAxRNCbMkE8A=="
+    ],
+    "4sPHZs": [
+      "Статті",
+      "39o94cm7YEO6mA86PnUJhw=="
+    ],
+    "38XLjs": [
+      "Зв'яжіться з нами",
+      "WA7AMy6nkt3uWIXMhoxZiQ=="
+    ],
+    "3fvZk": [
+      "Контактна форма",
+      "iHH7Aj/k9He9/FQW4uV6rQ=="
+    ],
+    "3Usmey": [
+      "Ми отримали ваше повідомлення!",
+      "XAFGcoC3ZHzIqCIxqXH0bA=="
+    ],
+    "3MARG8": [
+      "Дякуємо, що звернулися до нас. Ми цінуємо ваше повідомлення та зв'яжемося з вами найближчим часом.",
+      "PeNhbdQJNvExeqYtt5oXjQ=="
+    ],
+    "4EqkHk": [
+      "Повне ім'я",
+      "LZQ9mo0k9oc8tlEy2wK5sg=="
+    ],
+    "49RlGe": [
+      "Електронна пошта",
+      "OKb6zB54+Ul2UACwhdDhHA=="
+    ],
+    "1NKMd4": [
+      "Чим ми можемо допомогти?",
+      "JeV6VLFqxhR6493BAMWZlQ=="
+    ],
+    "4b4r8r": [
+      "Ми використовуватимемо ці персональні дані для обробки вашого питання та відповіді на нього. Більш детальну інформацію про обробку персональних даних ви можете знайти в нашій {=m2}.",
+      "HhUkchriDsrqfQ8l2QjFPg=="
+    ],
+    "1m1vid": [
+      "Політика конфіденційності",
+      "byDgrCqemItqlut+2LGuNw=="
+    ],
+    "2OHPYe": [
+      "Надіслати повідомлення",
+      "s1+K142L1aQjEl3F7PcQWA=="
+    ],
+    "FVsyr": [
+      "Відправлення...",
+      "5rekuIpcqU3WKAz/5fqLRQ=="
+    ],
+    "2LhBAL": [
+      "Надіслати",
+      "91Obct7KmRX/Wp5M/GpzOw=="
+    ],
+    "2VmFbH": [
+      "Джерела",
+      "JiVQZMh9b4/mxp6d90QoyA=="
+    ],
+    "3MyYC4": [
+      "ваш@email.com",
+      "SP1w8L93SP7DUaklwxDZxQ=="
+    ],
+    "4bWX8D": [
+      "Надіслати",
+      "uF7qhB5BHdni+qnppWzRFA=="
+    ],
+    "1F68dV": [
+      "Введіть дійсну адресу електронної пошти.",
+      "M0gwanxE2A/gStwCLa02MQ=="
+    ],
+    "3VzDHr": [
+      "Продовжити без зазначення електронної пошти",
+      "63p2Vu+n1oLlxZ71Lqdinw=="
+    ],
+    "2Z5fEL": [
+      "Закрити",
+      "xlpAZAp74dNPZ8jGAVtdvg=="
+    ],
+    "4uD8Ty": [
+      "В наявності",
+      "NLygQWkp7QaPk1JCFJ5vXA=="
+    ],
+    "3iQzrl": [
+      "Розпродано",
+      "AT5Y5nqlWVidbS0gCFARmw=="
+    ],
+    "2XNdWe": [
+      "Переглянути",
+      "zxaijUOULs7gElBbohGRAA=="
+    ],
+    "4mT2b0": [
+      "Чат",
+      "VNyzLZi67Q8V/MaVQ8PnYw=="
+    ],
+    "i6i09": [
+      "Надто багато повідомлень, зачекайте хвилинку.",
+      "l4Xxevg5U6qKzKEuWBEkBA=="
+    ],
+    "3CnbV3": [
+      "Щось пішло не так.",
+      "ZjhYeBIlgVuWpCcPL8hA8A=="
+    ],
+    "fMbhs": [
+      "Обдумую…",
+      "zTq4kup706kVxbAQwtlovw=="
+    ],
+    "1Sdoz8": [
+      "Розмову завершено.",
+      "VbHCi2w9enEQzyt0dsGPOQ=="
+    ],
+    "MxWEX": [
+      "Чат-асистент не налаштований для цього довідкового центру.",
+      "GDwiU9Ar1HZnK5Kp2MVsgw=="
+    ],
+    "47Z16T": [
+      "Розпочати нову розмову",
+      "V0Sl0lLW3jhCXJJxLLQwkg=="
+    ],
+    "16mX90": [
+      "Напишіть повідомлення…",
+      "TJhzxwJnVg6SxCA6zsjBhw=="
+    ],
+    "2vObAS": [
+      "Завершити чат",
+      "O+Ejw/eAAX2sj5yYL1Vo5w=="
+    ],
+    "26b4ED": [
+      "Пошук у базі знань…",
+      "PH/bPm/8eGfYrPwyUDdc6A=="
+    ],
+    "2mJY0m": [
+      "Пошук у каталозі…",
+      "FPls3TMTStW/JFJQoTwLQw=="
+    ],
+    "2aGbCm": [
+      "Зв'язуюся з колегою…",
+      "U0wVwGY7Y2Pq6bh6TpR7EA=="
+    ],
+    "1EX0Ji": [
+      "Погано",
+      "5/SznQPUCQVg1Y9rqdGzyA=="
+    ],
+    "qFazK": [
+      "Слабо",
+      "jvbVXkUWYdtIyKsSp7kZPg=="
+    ],
+    "2a3m6I": [
+      "В порядку",
+      "dpRl2pfrFB74Nw2w2mlmow=="
+    ],
+    "37MPZR": [
+      "Добре",
+      "tdod8zkwwMp6xCwMhkFrfw=="
+    ],
+    "1lc5zG": [
+      "Чудово",
+      "FF37k70vf3HgkgLkHx6b0w=="
+    ],
+    "4zeU4i": [
+      "Якою була ця розмова?",
+      "NDgdIlnSQcLAUx5HLN6/0g=="
+    ],
+    "3nOdUN": [
+      "Дякуємо за ваш відгук.",
+      "iSqMmk8sOqV6YKgT6vEhLQ=="
+    ],
+    "1Zd6BA": [
+      "Передпродаж",
+      "BYSpC302Vx/+t4BS9bStMw=="
+    ],
+    "z9en9": [
+      "{name} приєднався до розмови",
+      "kjmiAt2LIdsd4t0xhs/7pA=="
+    ],
+    "3UHrGa": [
+      "{name} залишив розмову, асистент відповідає знову",
+      "i3rcK0Cu19WWz09YhTTE3A=="
+    ],
+    "2uyQpP": [
+      "Асистент ШІ",
+      "z249hN/mRuac2sdKV2QU1g=="
+    ],
+    "3uCp2p": [
+      "Ви спілкуєтеся з {name}",
+      "iZWE2F9j08IQt4ycGcZ2yA=="
+    ],
+    "150sRl": [
+      "Ви спілкуєтеся з нашою командою",
+      "EjbwWUSh2BwveWxEGzjb2Q=="
+    ]
+  },
+  "sv_SE": {
+    "8qvVu": [
+      "Hem",
+      "/y+bhzIQnNfcZP4B55Yh/Q=="
+    ],
+    "1LZHIc": [
+      "Sök artiklar...",
+      "+CS7leN187kD61Izvk9Syw=="
+    ],
+    "3fUlAq": [
+      "Senast uppdaterad {date}",
+      "q0JdTyWcQGluLChecoOvlQ=="
+    ],
+    "16ono5": {
+      "4": [
+        "1 artikel",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "*": [
+        "{number} artiklar",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "_1": [
+        "1 artikel",
+        "ApsSZrJX6rxd10nYf29b5A=="
+      ]
+    },
+    "1kYgvd": [
+      "Populära artiklar",
+      "H8fc5TPjl+47npt1TX3a1A=="
+    ],
+    "4yNg4g": [
+      "Visa alla artiklar",
+      "pdZJf7G4ny3W1Qpm82e4Hw=="
+    ],
+    "4g6t9h": [
+      "Inga resultat hittades",
+      "Ol4rcuOfSa3c1AXuyBphoQ=="
+    ],
+    "cvCAq": [
+      "Vi kunde inte hitta några artiklar som matchar din sökning.",
+      "UNZixprUib6h1fF8YkWyUA=="
+    ],
+    "1xn2Ki": [
+      "Hjälpcentral",
+      "J5QghgxeWzZDHSxZmFfjow=="
+    ],
+    "djyME": [
+      "Oj! Något gick fel.",
+      "iasSLJFz4Hp4+C8a4qwY1Q=="
+    ],
+    "2UvnMw": [
+      "Det verkar som att något gick fel.",
+      "g0swyD4fJuHSSIyjvfiXrA=="
+    ],
+    "184Zys": [
+      "Försök igen",
+      "pwAxcytATAMxhU3xfvSigw=="
+    ],
+    "2ZFdDQ": [
+      "Detta hjälpavsnitt är inte tillgängligt på ditt språk. Välj ett av våra stödda språk:",
+      "QAriq8yZb/53wQPIPRIUtg=="
+    ],
+    "2nZLBM": [
+      "Välj ett språk",
+      "OiyGcfuQsgD1Bfxna34GHA=="
+    ],
+    "bPift": [
+      "Hitta svar på de vanligaste frågorna nedan. Sök efter ämnen du är intresserad av eller sortera efter kategori.",
+      "QTkeCOHu5nVhdL0QwZm0Gg=="
+    ],
+    "2SQQsh": [
+      "Gå tillbaka",
+      "6prvSt7hCcb97c9dKoBhWg=="
+    ],
+    "2STjQL": [
+      "Stäng",
+      "oY2Y00+6LLJAxRNCbMkE8A=="
+    ],
+    "4sPHZs": [
+      "Artiklar",
+      "39o94cm7YEO6mA86PnUJhw=="
+    ],
+    "38XLjs": [
+      "Kontakta oss",
+      "WA7AMy6nkt3uWIXMhoxZiQ=="
+    ],
+    "3fvZk": [
+      "Kontaktformulär",
+      "iHH7Aj/k9He9/FQW4uV6rQ=="
+    ],
+    "3Usmey": [
+      "Vi har mottagit ditt meddelande!",
+      "XAFGcoC3ZHzIqCIxqXH0bA=="
+    ],
+    "3MARG8": [
+      "Tack för att du kontaktar oss. Vi uppskattar ditt meddelande och kommer att återkomma till dig så snart som möjligt.",
+      "PeNhbdQJNvExeqYtt5oXjQ=="
+    ],
+    "4EqkHk": [
+      "Fullständigt namn",
+      "LZQ9mo0k9oc8tlEy2wK5sg=="
+    ],
+    "49RlGe": [
+      "E-post",
+      "OKb6zB54+Ul2UACwhdDhHA=="
+    ],
+    "1NKMd4": [
+      "Hur kan vi hjälpa dig?",
+      "JeV6VLFqxhR6493BAMWZlQ=="
+    ],
+    "4b4r8r": [
+      "Vi kommer att använda dessa personuppgifter för att behandla din fråga och besvara den. Mer information om behandling av personuppgifter finns i vår {=m2}.",
+      "HhUkchriDsrqfQ8l2QjFPg=="
+    ],
+    "1m1vid": [
+      "Integritetspolicy",
+      "byDgrCqemItqlut+2LGuNw=="
+    ],
+    "2OHPYe": [
+      "Skicka meddelande",
+      "s1+K142L1aQjEl3F7PcQWA=="
+    ],
+    "FVsyr": [
+      "Skickar...",
+      "5rekuIpcqU3WKAz/5fqLRQ=="
+    ],
+    "2LhBAL": [
+      "Skicka",
+      "91Obct7KmRX/Wp5M/GpzOw=="
+    ],
+    "2VmFbH": [
+      "Källor",
+      "JiVQZMh9b4/mxp6d90QoyA=="
+    ],
+    "3MyYC4": [
+      "din@e-post.se",
+      "SP1w8L93SP7DUaklwxDZxQ=="
+    ],
+    "4bWX8D": [
+      "Skicka",
+      "uF7qhB5BHdni+qnppWzRFA=="
+    ],
+    "1F68dV": [
+      "Vänligen ange en giltig e-postadress.",
+      "M0gwanxE2A/gStwCLa02MQ=="
+    ],
+    "3VzDHr": [
+      "Fortsätt utan att lämna en e-postadress",
+      "63p2Vu+n1oLlxZ71Lqdinw=="
+    ],
+    "2Z5fEL": [
+      "Stäng",
+      "xlpAZAp74dNPZ8jGAVtdvg=="
+    ],
+    "4uD8Ty": [
+      "I lager",
+      "NLygQWkp7QaPk1JCFJ5vXA=="
+    ],
+    "3iQzrl": [
+      "Slut i lager",
+      "AT5Y5nqlWVidbS0gCFARmw=="
+    ],
+    "2XNdWe": [
+      "Visa",
+      "zxaijUOULs7gElBbohGRAA=="
+    ],
+    "4mT2b0": [
+      "Chatt",
+      "VNyzLZi67Q8V/MaVQ8PnYw=="
+    ],
+    "i6i09": [
+      "För många meddelanden, vänta ett ögonblick.",
+      "l4Xxevg5U6qKzKEuWBEkBA=="
+    ],
+    "3CnbV3": [
+      "Något gick fel.",
+      "ZjhYeBIlgVuWpCcPL8hA8A=="
+    ],
+    "fMbhs": [
+      "Tänker...",
+      "zTq4kup706kVxbAQwtlovw=="
+    ],
+    "1Sdoz8": [
+      "Konversationen har avslutats.",
+      "VbHCi2w9enEQzyt0dsGPOQ=="
+    ],
+    "MxWEX": [
+      "Chattassistenten är inte konfigurerad för denna hjälpcenter.",
+      "GDwiU9Ar1HZnK5Kp2MVsgw=="
+    ],
+    "47Z16T": [
+      "Starta en ny konversation",
+      "V0Sl0lLW3jhCXJJxLLQwkg=="
+    ],
+    "16mX90": [
+      "Skriv ett meddelande...",
+      "TJhzxwJnVg6SxCA6zsjBhw=="
+    ],
+    "2vObAS": [
+      "Avsluta chatt",
+      "O+Ejw/eAAX2sj5yYL1Vo5w=="
+    ],
+    "26b4ED": [
+      "Söker i kunskapsdatabasen...",
+      "PH/bPm/8eGfYrPwyUDdc6A=="
+    ],
+    "2mJY0m": [
+      "Söker i katalogen...",
+      "FPls3TMTStW/JFJQoTwLQw=="
+    ],
+    "2aGbCm": [
+      "Kontaktar en kollega...",
+      "U0wVwGY7Y2Pq6bh6TpR7EA=="
+    ],
+    "1EX0Ji": [
+      "Dålig",
+      "5/SznQPUCQVg1Y9rqdGzyA=="
+    ],
+    "qFazK": [
+      "Inte bra",
+      "jvbVXkUWYdtIyKsSp7kZPg=="
+    ],
+    "2a3m6I": [
+      "Okej",
+      "dpRl2pfrFB74Nw2w2mlmow=="
+    ],
+    "37MPZR": [
+      "Bra",
+      "tdod8zkwwMp6xCwMhkFrfw=="
+    ],
+    "1lc5zG": [
+      "Utmärkt",
+      "FF37k70vf3HgkgLkHx6b0w=="
+    ],
+    "4zeU4i": [
+      "Hur var den här konversationen?",
+      "NDgdIlnSQcLAUx5HLN6/0g=="
+    ],
+    "3nOdUN": [
+      "Tack för din feedback.",
+      "iSqMmk8sOqV6YKgT6vEhLQ=="
+    ],
+    "1Zd6BA": [
+      "Förköp",
+      "BYSpC302Vx/+t4BS9bStMw=="
+    ],
+    "z9en9": [
+      "{name} anslöt sig till konversationen",
+      "kjmiAt2LIdsd4t0xhs/7pA=="
+    ],
+    "3UHrGa": [
+      "{name} lämnade konversationen, assistenten svarar igen",
+      "i3rcK0Cu19WWz09YhTTE3A=="
+    ],
+    "2uyQpP": [
+      "AI-assistent",
+      "z249hN/mRuac2sdKV2QU1g=="
+    ],
+    "3uCp2p": [
+      "Du chattar med {name}",
+      "iZWE2F9j08IQt4ycGcZ2yA=="
+    ],
+    "150sRl": [
+      "Du chattar med vårt team",
+      "EjbwWUSh2BwveWxEGzjb2Q=="
     ]
   },
   "pl_PL": {
@@ -753,6 +1057,26 @@
     "1Zd6BA": [
       "Przedsprzedaż",
       "BYSpC302Vx/+t4BS9bStMw=="
+    ],
+    "z9en9": [
+      "{name} dołączył do rozmowy",
+      "kjmiAt2LIdsd4t0xhs/7pA=="
+    ],
+    "3UHrGa": [
+      "{name} opuścił rozmowę, asystent odpowiada ponownie",
+      "i3rcK0Cu19WWz09YhTTE3A=="
+    ],
+    "2uyQpP": [
+      "Asystent AI",
+      "z249hN/mRuac2sdKV2QU1g=="
+    ],
+    "3uCp2p": [
+      "Czatujecie z {name}",
+      "iZWE2F9j08IQt4ycGcZ2yA=="
+    ],
+    "150sRl": [
+      "Czatujecie z naszym zespołem",
+      "EjbwWUSh2BwveWxEGzjb2Q=="
     ]
   },
   "de_DE": {
@@ -997,502 +1321,298 @@
     "1Zd6BA": [
       "Vorverkauf",
       "BYSpC302Vx/+t4BS9bStMw=="
+    ],
+    "z9en9": [
+      "{name} ist der Unterhaltung beigetreten",
+      "kjmiAt2LIdsd4t0xhs/7pA=="
+    ],
+    "3UHrGa": [
+      "{name} hat die Unterhaltung verlassen, der Assistent antwortet wieder",
+      "i3rcK0Cu19WWz09YhTTE3A=="
+    ],
+    "2uyQpP": [
+      "KI-Assistent",
+      "z249hN/mRuac2sdKV2QU1g=="
+    ],
+    "3uCp2p": [
+      "Sie chatten mit {name}",
+      "iZWE2F9j08IQt4ycGcZ2yA=="
+    ],
+    "150sRl": [
+      "Sie chatten mit unserem Team",
+      "EjbwWUSh2BwveWxEGzjb2Q=="
     ]
   },
-  "sv_SE": {
+  "cs_CZ": {
     "8qvVu": [
-      "Hem",
+      "Domů",
       "/y+bhzIQnNfcZP4B55Yh/Q=="
     ],
     "1LZHIc": [
-      "Sök artiklar...",
+      "Hledat články...",
       "+CS7leN187kD61Izvk9Syw=="
     ],
     "3fUlAq": [
-      "Senast uppdaterad {date}",
+      "Poslední aktualizace: {date}",
       "q0JdTyWcQGluLChecoOvlQ=="
     ],
     "16ono5": {
       "4": [
-        "1 artikel",
+        "{number} článek",
+        "2Sxr7qNdHS+bc6NYoY4dpg=="
+      ],
+      "20": [
+        "{number} články",
         "2Sxr7qNdHS+bc6NYoY4dpg=="
       ],
       "*": [
-        "{number} artiklar",
+        "{number} článků",
         "2Sxr7qNdHS+bc6NYoY4dpg=="
       ],
       "_1": [
-        "1 artikel",
+        "1 článek",
         "ApsSZrJX6rxd10nYf29b5A=="
       ]
     },
     "1kYgvd": [
-      "Populära artiklar",
+      "Populární články",
       "H8fc5TPjl+47npt1TX3a1A=="
     ],
     "4yNg4g": [
-      "Visa alla artiklar",
+      "Zobrazit všechny články",
       "pdZJf7G4ny3W1Qpm82e4Hw=="
     ],
     "4g6t9h": [
-      "Inga resultat hittades",
+      "Nebyly nalezeny žádné výsledky",
       "Ol4rcuOfSa3c1AXuyBphoQ=="
     ],
     "cvCAq": [
-      "Vi kunde inte hitta några artiklar som matchar din sökning.",
+      "Nenašli jsme žádné články, které by odpovídaly vašemu vyhledávání.",
       "UNZixprUib6h1fF8YkWyUA=="
     ],
     "1xn2Ki": [
-      "Hjälpcentral",
+      "Centrum nápovědy",
       "J5QghgxeWzZDHSxZmFfjow=="
     ],
     "djyME": [
-      "Oj! Något gick fel.",
+      "Jejda! Něco se pokazilo.",
       "iasSLJFz4Hp4+C8a4qwY1Q=="
     ],
     "2UvnMw": [
-      "Det verkar som att något gick fel.",
+      "Vypadá to, že se něco pokazilo.",
       "g0swyD4fJuHSSIyjvfiXrA=="
     ],
     "184Zys": [
-      "Försök igen",
+      "Zkusit znovu",
       "pwAxcytATAMxhU3xfvSigw=="
     ],
     "2ZFdDQ": [
-      "Detta hjälpavsnitt är inte tillgängligt på ditt språk. Välj ett av våra stödda språk:",
+      "Tato pomoc není k dispozici ve vašem jazyce. Vyberte některý z jazyků:",
       "QAriq8yZb/53wQPIPRIUtg=="
     ],
     "2nZLBM": [
-      "Välj ett språk",
+      "Vyberte jazyk",
       "OiyGcfuQsgD1Bfxna34GHA=="
     ],
     "bPift": [
-      "Hitta svar på de vanligaste frågorna nedan. Sök efter ämnen du är intresserad av eller sortera efter kategori.",
+      "Najděte odpovědi na nejčastěji kladené otázky níže. Vyhledejte témata, která vás zajímají, nebo je prohledejte podle kategorií.",
       "QTkeCOHu5nVhdL0QwZm0Gg=="
     ],
     "2SQQsh": [
-      "Gå tillbaka",
+      "Zpět",
       "6prvSt7hCcb97c9dKoBhWg=="
     ],
     "2STjQL": [
-      "Stäng",
+      "Zavřít",
       "oY2Y00+6LLJAxRNCbMkE8A=="
     ],
     "4sPHZs": [
-      "Artiklar",
+      "Články",
       "39o94cm7YEO6mA86PnUJhw=="
     ],
     "38XLjs": [
-      "Kontakta oss",
+      "Kontaktujte nás",
       "WA7AMy6nkt3uWIXMhoxZiQ=="
     ],
     "3fvZk": [
-      "Kontaktformulär",
+      "Kontaktní formulář",
       "iHH7Aj/k9He9/FQW4uV6rQ=="
     ],
     "3Usmey": [
-      "Vi har mottagit ditt meddelande!",
+      "Vaši zprávu jsme obdrželi!",
       "XAFGcoC3ZHzIqCIxqXH0bA=="
     ],
     "3MARG8": [
-      "Tack för att du kontaktar oss. Vi uppskattar ditt meddelande och kommer att återkomma till dig så snart som möjligt.",
+      "Děkujeme, že jste nás kontaktovali. Budeme vás kontaktovat v nejkratším možném čase.",
       "PeNhbdQJNvExeqYtt5oXjQ=="
     ],
     "4EqkHk": [
-      "Fullständigt namn",
+      "Celé jméno",
       "LZQ9mo0k9oc8tlEy2wK5sg=="
     ],
     "49RlGe": [
-      "E-post",
+      "E-mail",
       "OKb6zB54+Ul2UACwhdDhHA=="
     ],
     "1NKMd4": [
-      "Hur kan vi hjälpa dig?",
+      "Jak vám můžeme pomoci?",
       "JeV6VLFqxhR6493BAMWZlQ=="
     ],
     "4b4r8r": [
-      "Vi kommer att använda dessa personuppgifter för att behandla din fråga och besvara den. Mer information om behandling av personuppgifter finns i vår {=m2}.",
+      "Zpracování osobních údajů bude provedeno výhradně za účelem vyřízení vašeho požadavku v souladu se {=m2}.",
       "HhUkchriDsrqfQ8l2QjFPg=="
     ],
     "1m1vid": [
-      "Integritetspolicy",
+      "zásadami ochrany osobních údajů",
       "byDgrCqemItqlut+2LGuNw=="
     ],
     "2OHPYe": [
-      "Skicka meddelande",
+      "Odeslat zprávu",
       "s1+K142L1aQjEl3F7PcQWA=="
     ],
     "FVsyr": [
-      "Skickar...",
+      "Odesílá se...",
       "5rekuIpcqU3WKAz/5fqLRQ=="
     ],
     "2LhBAL": [
-      "Skicka",
+      "Odeslat",
       "91Obct7KmRX/Wp5M/GpzOw=="
     ],
     "2VmFbH": [
-      "Källor",
+      "Zdroje",
       "JiVQZMh9b4/mxp6d90QoyA=="
     ],
     "3MyYC4": [
-      "din@e-post.se",
+      "vas@email.com",
       "SP1w8L93SP7DUaklwxDZxQ=="
     ],
     "4bWX8D": [
-      "Skicka",
+      "Odeslat",
       "uF7qhB5BHdni+qnppWzRFA=="
     ],
     "1F68dV": [
-      "Vänligen ange en giltig e-postadress.",
+      "Zadejte platnou e-mailovou adresu.",
       "M0gwanxE2A/gStwCLa02MQ=="
     ],
     "3VzDHr": [
-      "Fortsätt utan att lämna en e-postadress",
+      "Pokračovat bez zadání e-mailu",
       "63p2Vu+n1oLlxZ71Lqdinw=="
     ],
     "2Z5fEL": [
-      "Stäng",
+      "Zavřít",
       "xlpAZAp74dNPZ8jGAVtdvg=="
     ],
     "4uD8Ty": [
-      "I lager",
+      "Skladem",
       "NLygQWkp7QaPk1JCFJ5vXA=="
     ],
     "3iQzrl": [
-      "Slut i lager",
+      "Vyprodáno",
       "AT5Y5nqlWVidbS0gCFARmw=="
     ],
     "2XNdWe": [
-      "Visa",
+      "Zobrazit",
       "zxaijUOULs7gElBbohGRAA=="
     ],
     "4mT2b0": [
-      "Chatt",
+      "Chat",
       "VNyzLZi67Q8V/MaVQ8PnYw=="
     ],
     "i6i09": [
-      "För många meddelanden, vänta ett ögonblick.",
+      "Příliš mnoho zpráv, prosím počkejte chvíli.",
       "l4Xxevg5U6qKzKEuWBEkBA=="
     ],
     "3CnbV3": [
-      "Något gick fel.",
+      "Něco se pokazilo.",
       "ZjhYeBIlgVuWpCcPL8hA8A=="
     ],
     "fMbhs": [
-      "Tänker...",
+      "Přemýšlím…",
       "zTq4kup706kVxbAQwtlovw=="
     ],
     "1Sdoz8": [
-      "Konversationen har avslutats.",
+      "Konverzace byla ukončena.",
       "VbHCi2w9enEQzyt0dsGPOQ=="
     ],
     "MxWEX": [
-      "Chattassistenten är inte konfigurerad för denna hjälpcenter.",
+      "Chatový asistent není nakonfigurován pro toto centrum nápovědy.",
       "GDwiU9Ar1HZnK5Kp2MVsgw=="
     ],
     "47Z16T": [
-      "Starta en ny konversation",
+      "Zahájit novou konverzaci",
       "V0Sl0lLW3jhCXJJxLLQwkg=="
     ],
     "16mX90": [
-      "Skriv ett meddelande...",
+      "Napište zprávu…",
       "TJhzxwJnVg6SxCA6zsjBhw=="
     ],
     "2vObAS": [
-      "Avsluta chatt",
+      "Ukončit chat",
       "O+Ejw/eAAX2sj5yYL1Vo5w=="
     ],
     "26b4ED": [
-      "Söker i kunskapsdatabasen...",
+      "Vyhledávám v databázi znalostí…",
       "PH/bPm/8eGfYrPwyUDdc6A=="
     ],
     "2mJY0m": [
-      "Söker i katalogen...",
+      "Vyhledávám v katalogu…",
       "FPls3TMTStW/JFJQoTwLQw=="
     ],
     "2aGbCm": [
-      "Kontaktar en kollega...",
+      "Kontaktuji kolegu…",
       "U0wVwGY7Y2Pq6bh6TpR7EA=="
     ],
     "1EX0Ji": [
-      "Dålig",
+      "Špatný",
       "5/SznQPUCQVg1Y9rqdGzyA=="
     ],
     "qFazK": [
-      "Inte bra",
+      "Slabý",
       "jvbVXkUWYdtIyKsSp7kZPg=="
     ],
     "2a3m6I": [
-      "Okej",
+      "V pořádku",
       "dpRl2pfrFB74Nw2w2mlmow=="
     ],
     "37MPZR": [
-      "Bra",
+      "Dobrý",
       "tdod8zkwwMp6xCwMhkFrfw=="
     ],
     "1lc5zG": [
-      "Utmärkt",
+      "Skvělý",
       "FF37k70vf3HgkgLkHx6b0w=="
     ],
     "4zeU4i": [
-      "Hur var den här konversationen?",
+      "Jaký byl tento rozhovor?",
       "NDgdIlnSQcLAUx5HLN6/0g=="
     ],
     "3nOdUN": [
-      "Tack för din feedback.",
+      "Děkujeme za zpětnou vazbu.",
       "iSqMmk8sOqV6YKgT6vEhLQ=="
     ],
     "1Zd6BA": [
-      "Förköp",
+      "Předprodej",
       "BYSpC302Vx/+t4BS9bStMw=="
-    ]
-  },
-  "uk_UA": {
-    "8qvVu": [
-      "Головна",
-      "/y+bhzIQnNfcZP4B55Yh/Q=="
     ],
-    "1LZHIc": [
-      "Пошук статей...",
-      "+CS7leN187kD61Izvk9Syw=="
+    "z9en9": [
+      "{name} se připojil ke konverzaci",
+      "kjmiAt2LIdsd4t0xhs/7pA=="
     ],
-    "3fUlAq": [
-      "Останнє оновлення {date}",
-      "q0JdTyWcQGluLChecoOvlQ=="
+    "3UHrGa": [
+      "{name} opustil konverzaci, asistent odpoví znovu",
+      "i3rcK0Cu19WWz09YhTTE3A=="
     ],
-    "16ono5": {
-      "4": [
-        "{number} стаття",
-        "2Sxr7qNdHS+bc6NYoY4dpg=="
-      ],
-      "*": [
-        "{number} статей",
-        "2Sxr7qNdHS+bc6NYoY4dpg=="
-      ],
-      "_1": [
-        "1 стаття",
-        "ApsSZrJX6rxd10nYf29b5A=="
-      ]
-    },
-    "1kYgvd": [
-      "Популярні статті",
-      "H8fc5TPjl+47npt1TX3a1A=="
+    "2uyQpP": [
+      "Asistent AI",
+      "z249hN/mRuac2sdKV2QU1g=="
     ],
-    "4yNg4g": [
-      "Переглянути всі статті",
-      "pdZJf7G4ny3W1Qpm82e4Hw=="
+    "3uCp2p": [
+      "Chatujete s {name}",
+      "iZWE2F9j08IQt4ycGcZ2yA=="
     ],
-    "4g6t9h": [
-      "Результати не знайдено",
-      "Ol4rcuOfSa3c1AXuyBphoQ=="
-    ],
-    "cvCAq": [
-      "не знайшли жодної статті, що відповідає вашому запиту.",
-      "UNZixprUib6h1fF8YkWyUA=="
-    ],
-    "1xn2Ki": [
-      "Центр допомоги",
-      "J5QghgxeWzZDHSxZmFfjow=="
-    ],
-    "djyME": [
-      "Ой! Щось пішло не так.",
-      "iasSLJFz4Hp4+C8a4qwY1Q=="
-    ],
-    "2UvnMw": [
-      "Схоже, щось пішло не так.",
-      "g0swyD4fJuHSSIyjvfiXrA=="
-    ],
-    "184Zys": [
-      "Спробувати ще раз",
-      "pwAxcytATAMxhU3xfvSigw=="
-    ],
-    "2ZFdDQ": [
-      "Цей довідковий матеріал недоступний вашою мовою. Будь ласка, виберіть одну з підтримуваних мов:",
-      "QAriq8yZb/53wQPIPRIUtg=="
-    ],
-    "2nZLBM": [
-      "Виберіть мову",
-      "OiyGcfuQsgD1Bfxna34GHA=="
-    ],
-    "bPift": [
-      "Знайдіть відповіді на найпоширеніші запитання нижче. Знайдіть теми, які вас цікавлять, або відсортуйте їх за категоріями.",
-      "QTkeCOHu5nVhdL0QwZm0Gg=="
-    ],
-    "2SQQsh": [
-      "Назад",
-      "6prvSt7hCcb97c9dKoBhWg=="
-    ],
-    "2STjQL": [
-      "Закрити",
-      "oY2Y00+6LLJAxRNCbMkE8A=="
-    ],
-    "4sPHZs": [
-      "Статті",
-      "39o94cm7YEO6mA86PnUJhw=="
-    ],
-    "38XLjs": [
-      "Зв'яжіться з нами",
-      "WA7AMy6nkt3uWIXMhoxZiQ=="
-    ],
-    "3fvZk": [
-      "Контактна форма",
-      "iHH7Aj/k9He9/FQW4uV6rQ=="
-    ],
-    "3Usmey": [
-      "Ми отримали ваше повідомлення!",
-      "XAFGcoC3ZHzIqCIxqXH0bA=="
-    ],
-    "3MARG8": [
-      "Дякуємо, що звернулися до нас. Ми цінуємо ваше повідомлення та зв'яжемося з вами найближчим часом.",
-      "PeNhbdQJNvExeqYtt5oXjQ=="
-    ],
-    "4EqkHk": [
-      "Повне ім'я",
-      "LZQ9mo0k9oc8tlEy2wK5sg=="
-    ],
-    "49RlGe": [
-      "Електронна пошта",
-      "OKb6zB54+Ul2UACwhdDhHA=="
-    ],
-    "1NKMd4": [
-      "Чим ми можемо допомогти?",
-      "JeV6VLFqxhR6493BAMWZlQ=="
-    ],
-    "4b4r8r": [
-      "Ми використовуватимемо ці персональні дані для обробки вашого питання та відповіді на нього. Більш детальну інформацію про обробку персональних даних ви можете знайти в нашій {=m2}.",
-      "HhUkchriDsrqfQ8l2QjFPg=="
-    ],
-    "1m1vid": [
-      "Політика конфіденційності",
-      "byDgrCqemItqlut+2LGuNw=="
-    ],
-    "2OHPYe": [
-      "Надіслати повідомлення",
-      "s1+K142L1aQjEl3F7PcQWA=="
-    ],
-    "FVsyr": [
-      "Відправлення...",
-      "5rekuIpcqU3WKAz/5fqLRQ=="
-    ],
-    "2LhBAL": [
-      "Надіслати",
-      "91Obct7KmRX/Wp5M/GpzOw=="
-    ],
-    "2VmFbH": [
-      "Джерела",
-      "JiVQZMh9b4/mxp6d90QoyA=="
-    ],
-    "3MyYC4": [
-      "ваш@email.com",
-      "SP1w8L93SP7DUaklwxDZxQ=="
-    ],
-    "4bWX8D": [
-      "Надіслати",
-      "uF7qhB5BHdni+qnppWzRFA=="
-    ],
-    "1F68dV": [
-      "Введіть дійсну адресу електронної пошти.",
-      "M0gwanxE2A/gStwCLa02MQ=="
-    ],
-    "3VzDHr": [
-      "Продовжити без зазначення електронної пошти",
-      "63p2Vu+n1oLlxZ71Lqdinw=="
-    ],
-    "2Z5fEL": [
-      "Закрити",
-      "xlpAZAp74dNPZ8jGAVtdvg=="
-    ],
-    "4uD8Ty": [
-      "В наявності",
-      "NLygQWkp7QaPk1JCFJ5vXA=="
-    ],
-    "3iQzrl": [
-      "Розпродано",
-      "AT5Y5nqlWVidbS0gCFARmw=="
-    ],
-    "2XNdWe": [
-      "Переглянути",
-      "zxaijUOULs7gElBbohGRAA=="
-    ],
-    "4mT2b0": [
-      "Чат",
-      "VNyzLZi67Q8V/MaVQ8PnYw=="
-    ],
-    "i6i09": [
-      "Надто багато повідомлень, зачекайте хвилинку.",
-      "l4Xxevg5U6qKzKEuWBEkBA=="
-    ],
-    "3CnbV3": [
-      "Щось пішло не так.",
-      "ZjhYeBIlgVuWpCcPL8hA8A=="
-    ],
-    "fMbhs": [
-      "Обдумую…",
-      "zTq4kup706kVxbAQwtlovw=="
-    ],
-    "1Sdoz8": [
-      "Розмову завершено.",
-      "VbHCi2w9enEQzyt0dsGPOQ=="
-    ],
-    "MxWEX": [
-      "Чат-асистент не налаштований для цього довідкового центру.",
-      "GDwiU9Ar1HZnK5Kp2MVsgw=="
-    ],
-    "47Z16T": [
-      "Розпочати нову розмову",
-      "V0Sl0lLW3jhCXJJxLLQwkg=="
-    ],
-    "16mX90": [
-      "Напишіть повідомлення…",
-      "TJhzxwJnVg6SxCA6zsjBhw=="
-    ],
-    "2vObAS": [
-      "Завершити чат",
-      "O+Ejw/eAAX2sj5yYL1Vo5w=="
-    ],
-    "26b4ED": [
-      "Пошук у базі знань…",
-      "PH/bPm/8eGfYrPwyUDdc6A=="
-    ],
-    "2mJY0m": [
-      "Пошук у каталозі…",
-      "FPls3TMTStW/JFJQoTwLQw=="
-    ],
-    "2aGbCm": [
-      "Зв'язуюся з колегою…",
-      "U0wVwGY7Y2Pq6bh6TpR7EA=="
-    ],
-    "1EX0Ji": [
-      "Погано",
-      "5/SznQPUCQVg1Y9rqdGzyA=="
-    ],
-    "qFazK": [
-      "Слабо",
-      "jvbVXkUWYdtIyKsSp7kZPg=="
-    ],
-    "2a3m6I": [
-      "В порядку",
-      "dpRl2pfrFB74Nw2w2mlmow=="
-    ],
-    "37MPZR": [
-      "Добре",
-      "tdod8zkwwMp6xCwMhkFrfw=="
-    ],
-    "1lc5zG": [
-      "Чудово",
-      "FF37k70vf3HgkgLkHx6b0w=="
-    ],
-    "4zeU4i": [
-      "Якою була ця розмова?",
-      "NDgdIlnSQcLAUx5HLN6/0g=="
-    ],
-    "3nOdUN": [
-      "Дякуємо за ваш відгук.",
-      "iSqMmk8sOqV6YKgT6vEhLQ=="
-    ],
-    "1Zd6BA": [
-      "Передпродаж",
-      "BYSpC302Vx/+t4BS9bStMw=="
+    "150sRl": [
+      "Chatujete s naším týmem",
+      "EjbwWUSh2BwveWxEGzjb2Q=="
     ]
   }
 }

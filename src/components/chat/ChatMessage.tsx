@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import classNames from 'classnames'
-import { Bot, ExternalLink, Mail, Phone, Clock, X } from 'lucide-react'
+import { Bot, ExternalLink, Mail, Phone, Clock, User, X } from 'lucide-react'
 import Markdown from '@/components/Markdown.tsx'
 import { useConfigurationContext } from '@/contexts/ConfigurationContext.ts'
 import {
@@ -98,6 +98,8 @@ const ChatMessageView: React.FC<Props> = ({
     const sources = message.extraData?.sources || []
     const products = message.products || []
 
+    const agentName = message.extraData?.agent?.name || null
+
     if (message.type === 'ended') {
         return (
             <div className="text-center text-xs text-gray-500 dark:text-gray-400 py-2">
@@ -105,6 +107,28 @@ const ChatMessageView: React.FC<Props> = ({
             </div>
         )
     }
+
+    if (message.type === 'agent_joined' || message.type === 'agent_left') {
+        return (
+            <div className="text-center text-xs text-gray-500 dark:text-gray-400 py-2">
+                {!agentName
+                    ? message.content
+                    : message.type === 'agent_joined'
+                    ? fbt(
+                          fbt.param('name', agentName) +
+                              ' joined the conversation',
+                          'chat notice when a person from the store took the conversation over from the assistant'
+                      )
+                    : fbt(
+                          fbt.param('name', agentName) +
+                              ' left the conversation, the assistant answers again',
+                          'chat notice when a person from the store handed the conversation back to the assistant'
+                      )}
+            </div>
+        )
+    }
+
+    const fromAgent = message.type === 'agent'
 
     return (
         <div
@@ -117,10 +141,22 @@ const ChatMessageView: React.FC<Props> = ({
                 <div
                     className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-white shadow-sm"
                     style={{ backgroundColor: configuration.color }}
-                    title={assistantName}
-                    aria-label={assistantName}
+                    title={fromAgent ? agentName || undefined : assistantName}
+                    aria-label={
+                        fromAgent ? agentName || undefined : assistantName
+                    }
                 >
-                    <Bot className="h-5 w-5" />
+                    {fromAgent ? (
+                        agentName ? (
+                            <span className="text-sm font-semibold">
+                                {agentName.charAt(0).toUpperCase()}
+                            </span>
+                        ) : (
+                            <User className="h-5 w-5" />
+                        )
+                    ) : (
+                        <Bot className="h-5 w-5" />
+                    )}
                 </div>
             )}
             <div
@@ -128,6 +164,11 @@ const ChatMessageView: React.FC<Props> = ({
                     'items-end': !message.isBot,
                 })}
             >
+                {fromAgent && agentName && (
+                    <div className="pl-1 text-xs font-medium text-gray-500 dark:text-gray-400">
+                        {agentName}
+                    </div>
+                )}
                 <div
                     className={classNames(
                         'rounded-2xl px-4 py-2.5 text-sm leading-6 break-words',

@@ -44,15 +44,57 @@
   },
   {
    "hashToLeaf": {
+    "kjmiAt2LIdsd4t0xhs/7pA==": {
+     "text": "{name} joined the conversation",
+     "desc": "chat notice when a person from the store took the conversation over from the assistant"
+    }
+   },
+   "filepath": "src\\components\\chat\\ChatMessage.tsx",
+   "line_beg": 117,
+   "col_beg": 22,
+   "line_end": 121,
+   "col_end": 23,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat notice when a person from the store took the conversation over from the assistant",
+     "text": "{name} joined the conversation"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "i3rcK0Cu19WWz09YhTTE3A==": {
+     "text": "{name} left the conversation, the assistant answers again",
+     "desc": "chat notice when a person from the store handed the conversation back to the assistant"
+    }
+   },
+   "filepath": "src\\components\\chat\\ChatMessage.tsx",
+   "line_beg": 122,
+   "col_beg": 22,
+   "line_end": 126,
+   "col_end": 23,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat notice when a person from the store handed the conversation back to the assistant",
+     "text": "{name} left the conversation, the assistant answers again"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
     "JiVQZMh9b4/mxp6d90QoyA==": {
      "text": "Sources",
      "desc": "label before the cited sources"
     }
    },
    "filepath": "src\\components\\chat\\ChatMessage.tsx",
-   "line_beg": 206,
+   "line_beg": 247,
    "col_beg": 15,
-   "line_end": 206,
+   "line_end": 247,
    "col_end": 63,
    "project": "",
    "jsfbt": {
@@ -71,9 +113,9 @@
     }
    },
    "filepath": "src\\components\\chat\\ChatMessage.tsx",
-   "line_beg": 338,
+   "line_beg": 379,
    "col_beg": 33,
-   "line_end": 338,
+   "line_end": 379,
    "col_end": 76,
    "project": "",
    "jsfbt": {
@@ -92,9 +134,9 @@
     }
    },
    "filepath": "src\\components\\chat\\ChatMessage.tsx",
-   "line_beg": 353,
+   "line_beg": 394,
    "col_beg": 21,
-   "line_end": 353,
+   "line_end": 394,
    "col_end": 56,
    "project": "",
    "jsfbt": {
@@ -113,9 +155,9 @@
     }
    },
    "filepath": "src\\components\\chat\\ChatMessage.tsx",
-   "line_beg": 358,
+   "line_beg": 399,
    "col_beg": 21,
-   "line_end": 358,
+   "line_end": 399,
    "col_end": 78,
    "project": "",
    "jsfbt": {
@@ -134,9 +176,9 @@
     }
    },
    "filepath": "src\\components\\chat\\ChatMessage.tsx",
-   "line_beg": 384,
+   "line_beg": 425,
    "col_beg": 19,
-   "line_end": 387,
+   "line_end": 428,
    "col_end": 9,
    "project": "",
    "jsfbt": {
@@ -155,9 +197,9 @@
     }
    },
    "filepath": "src\\components\\chat\\ChatMessage.tsx",
-   "line_beg": 400,
+   "line_beg": 441,
    "col_beg": 19,
-   "line_end": 400,
+   "line_end": 441,
    "col_end": 60,
    "project": "",
    "jsfbt": {
@@ -548,8 +590,8 @@
   },
   {
    "hashToLeaf": {
-    "VNyzLZi67Q8V/MaVQ8PnYw==": {
-     "text": "Chat",
+    "z249hN/mRuac2sdKV2QU1g==": {
+     "text": "AI Assistant",
      "desc": "tab label"
     }
    },
@@ -557,12 +599,12 @@
    "line_beg": 25,
    "col_beg": 19,
    "line_end": 25,
-   "col_end": 43,
+   "col_end": 51,
    "project": "",
    "jsfbt": {
     "t": {
      "desc": "tab label",
-     "text": "Chat"
+     "text": "AI Assistant"
     },
     "m": []
    }
@@ -675,9 +717,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 33,
+   "line_beg": 34,
    "col_beg": 11,
-   "line_end": 33,
+   "line_end": 34,
    "col_end": 52,
    "project": "",
    "jsfbt": {
@@ -696,9 +738,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 34,
+   "line_beg": 35,
    "col_beg": 11,
-   "line_end": 34,
+   "line_end": 35,
    "col_end": 58,
    "project": "",
    "jsfbt": {
@@ -717,9 +759,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 35,
+   "line_beg": 36,
    "col_beg": 11,
-   "line_end": 35,
+   "line_end": 36,
    "col_end": 53,
    "project": "",
    "jsfbt": {
@@ -738,9 +780,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 36,
+   "line_beg": 37,
    "col_beg": 11,
-   "line_end": 36,
+   "line_end": 37,
    "col_end": 53,
    "project": "",
    "jsfbt": {
@@ -759,9 +801,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 37,
+   "line_beg": 38,
    "col_beg": 11,
-   "line_end": 37,
+   "line_end": 38,
    "col_end": 54,
    "project": "",
    "jsfbt": {
@@ -780,9 +822,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 123,
+   "line_beg": 172,
    "col_beg": 16,
-   "line_end": 126,
+   "line_end": 175,
    "col_end": 17,
    "project": "",
    "jsfbt": {
@@ -801,9 +843,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 131,
+   "line_beg": 180,
    "col_beg": 20,
-   "line_end": 131,
+   "line_end": 180,
    "col_end": 70,
    "project": "",
    "jsfbt": {
@@ -822,9 +864,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 153,
+   "line_beg": 204,
    "col_beg": 18,
-   "line_end": 153,
+   "line_end": 204,
    "col_end": 78,
    "project": "",
    "jsfbt": {
@@ -843,9 +885,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 290,
+   "line_beg": 349,
    "col_beg": 24,
-   "line_end": 290,
+   "line_end": 349,
    "col_end": 79,
    "project": "",
    "jsfbt": {
@@ -858,15 +900,57 @@
   },
   {
    "hashToLeaf": {
+    "iZWE2F9j08IQt4ycGcZ2yA==": {
+     "text": "You are chatting with {name}",
+     "desc": "chat banner while a person from the store answers instead of the assistant"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 389,
+   "col_beg": 26,
+   "line_end": 393,
+   "col_end": 27,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat banner while a person from the store answers instead of the assistant",
+     "text": "You are chatting with {name}"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
+    "EjbwWUSh2BwveWxEGzjb2Q==": {
+     "text": "You are chatting with our team",
+     "desc": "chat banner while a person from the store without a name answers instead of the assistant"
+    }
+   },
+   "filepath": "src\\pages\\Chat.tsx",
+   "line_beg": 394,
+   "col_beg": 26,
+   "line_end": 397,
+   "col_end": 27,
+   "project": "",
+   "jsfbt": {
+    "t": {
+     "desc": "chat banner while a person from the store without a name answers instead of the assistant",
+     "text": "You are chatting with our team"
+    },
+    "m": []
+   }
+  },
+  {
+   "hashToLeaf": {
     "NDgdIlnSQcLAUx5HLN6/0g==": {
      "text": "How was this conversation?",
      "desc": "chat feedback question after the conversation ended"
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 382,
+   "line_beg": 465,
    "col_beg": 34,
-   "line_end": 385,
+   "line_end": 468,
    "col_end": 35,
    "project": "",
    "jsfbt": {
@@ -885,9 +969,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 386,
+   "line_beg": 469,
    "col_beg": 34,
-   "line_end": 389,
+   "line_end": 472,
    "col_end": 35,
    "project": "",
    "jsfbt": {
@@ -906,9 +990,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 426,
+   "line_beg": 509,
    "col_beg": 29,
-   "line_end": 429,
+   "line_end": 512,
    "col_end": 29,
    "project": "",
    "jsfbt": {
@@ -927,9 +1011,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 438,
+   "line_beg": 521,
    "col_beg": 37,
-   "line_end": 441,
+   "line_end": 524,
    "col_end": 25,
    "project": "",
    "jsfbt": {
@@ -948,9 +1032,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 451,
+   "line_beg": 534,
    "col_beg": 33,
-   "line_end": 454,
+   "line_end": 537,
    "col_end": 33,
    "project": "",
    "jsfbt": {
@@ -969,9 +1053,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 468,
+   "line_beg": 551,
    "col_beg": 19,
-   "line_end": 468,
+   "line_end": 551,
    "col_end": 70,
    "project": "",
    "jsfbt": {
@@ -990,9 +1074,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 471,
+   "line_beg": 554,
    "col_beg": 19,
-   "line_end": 471,
+   "line_end": 554,
    "col_end": 63,
    "project": "",
    "jsfbt": {
@@ -1011,9 +1095,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 473,
+   "line_beg": 556,
    "col_beg": 19,
-   "line_end": 473,
+   "line_end": 556,
    "col_end": 64,
    "project": "",
    "jsfbt": {
@@ -1032,9 +1116,9 @@
     }
    },
    "filepath": "src\\pages\\Chat.tsx",
-   "line_beg": 475,
+   "line_beg": 558,
    "col_beg": 19,
-   "line_end": 475,
+   "line_end": 558,
    "col_end": 79,
    "project": "",
    "jsfbt": {
