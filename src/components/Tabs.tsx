@@ -22,7 +22,7 @@ const Tabs: React.FC<TabsProps> = ({ tab }) => {
         },
         {
             key: 'chat',
-            label: fbt('Chat', 'tab label'),
+            label: fbt('AI Assistant', 'tab label'),
             href: '/chat',
             icon: MessageCircle,
             enabled: configuration.assistant_enabled,
